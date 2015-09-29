@@ -1,0 +1,16 @@
+//This program needs to take a user's input of two numbers, and perform basic math operations on them.
+
+//Import Java's scanner utility.
+
+import java.util.Scanner;
+
+class EvalEvenOdd {
+	public static void main(String [] args) {
+		int x;
+		int y;
+		int z;
+		
+		
+		
+	}
+}

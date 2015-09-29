@@ -1,0 +1,69 @@
+//This program needs to take three numbers, and perform basic math operations on them.
+
+class EvalNumbers {
+	
+	public static int GetSum(int x, int y, int z) {
+		int sum;
+		int ans;
+
+		sum = x + y + z;
+		ans = System.out.println("These numbers have a sum of " + sum + ".");
+		
+		return ans;
+	}
+	
+	public static int GetAverage(int x, int y, int z, int v) {
+		int avg;
+		int num;
+		
+		num = x + y + z;
+		avg = num / v;
+		
+		return avg;
+	}
+	
+	public static int GetProduct(int x, int y, int z) {
+		int prod;
+		prod = x * y * z; 
+		return prod;
+	}
+	
+//	public static int GetSmallest(int x, int y, int z) {
+//		int sml;
+//		int smallest;
+//		
+//		if(x < y && x < z) {
+//			smallest = x;
+//			
+//		} else if(y < z && y < x) {
+//			smallest = y;
+//			
+//		} else if(z < x && z < y) {
+//			smallest = z;
+//		}
+//		
+//		sml = smallest;
+//		return sml;
+//	}
+	
+	public static void main(String [] args) {
+		int add;
+		int average;
+		int product;
+		int smallest;
+		
+		add = GetSum(2, 4, 6);
+		average = GetAverage(2, 4, 6, 3);
+		product = GetProduct(2, 4, 6);
+//		smallest = GetSmallest(2, 4, 6);
+		
+		System.out.println("2, 4, and 6 have a sum of " + add + ".");
+		System.out.println("2, 4, and 6 have an average of " + average + ".");
+		System.out.println("2, 4, and 6 have a product of " + product + ".");
+//		System.out.println("Of 2, 4, and 6, the smallest number is" + smallest);
+		
+//		int average = x + y + z / 3;
+//		int product = x * y * z;
+		
+	}
+}

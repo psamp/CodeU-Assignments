@@ -1,0 +1,17 @@
+//This program needs to take three numbers, and perform basic math operations on them.
+
+class EvalNumbers {
+	
+//	public static int GetSum() {
+//		int sum;
+//		sum = x + y + z;
+//		return sum;
+//	}
+	
+	public static void main(String [] args) {
+		
+//		int average = x + y + z / 3;
+//		int product = x * y * z;
+		
+	}
+}

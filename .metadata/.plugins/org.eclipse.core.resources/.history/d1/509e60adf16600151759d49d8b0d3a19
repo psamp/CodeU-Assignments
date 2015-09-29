@@ -1,0 +1,21 @@
+//This program needs to take three numbers, and perform basic math operations on them.
+
+class EvalNumbers {
+	
+	public static int GetSum(int x, int y, int z) {
+		int sum;
+		sum = x + y + z;
+		return sum;
+	}
+	
+	public static void main(String [] args) {
+		int add;
+		add = GetSum(2, 4, 6);
+		
+		System.out.println("2, 4, and 6 have a sum of " + add);
+		
+//		int average = x + y + z / 3;
+//		int product = x * y * z;
+		
+	}
+}
