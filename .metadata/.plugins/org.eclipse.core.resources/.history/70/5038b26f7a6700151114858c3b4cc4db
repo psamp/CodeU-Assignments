@@ -80,7 +80,7 @@ class EvalNumbers {
 		average = GetAverage(2, 4, 6, 3);
 		product = GetProduct(2, 4, 6);
 		smallest = GetSmallest(2, 4, 6);
-		largest = GetLargest(2, 4, 6);
+		largest = GetLargest(88,888,8888);
 		
 //		Print messages in the console.
 		System.out.println("2, 4, and 6 have a sum of " + add + ".");

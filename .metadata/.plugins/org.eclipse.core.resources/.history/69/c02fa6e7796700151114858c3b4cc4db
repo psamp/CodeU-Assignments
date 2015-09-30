@@ -59,7 +59,7 @@ class EvalNumbers {
 		} else if(y > z && y > x) {
 			largest = y;
 			
-		} else if(z > x && z > y) {
+		} else if(> < x && z > y) {
 			largest = z;
 		}
 		
@@ -87,6 +87,5 @@ class EvalNumbers {
 		System.out.println("2, 4, and 6 have an average of " + average + ".");
 		System.out.println("2, 4, and 6 have a product of " + product + ".");
 		System.out.println("The smallest of 2, 4, and 6 is " + smallest + ".");
-		System.out.println("The largest of 2, 4, and 6 is " + largest + ".");
 	}
 }

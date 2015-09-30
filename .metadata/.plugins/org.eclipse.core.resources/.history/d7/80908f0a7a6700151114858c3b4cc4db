@@ -59,7 +59,7 @@ class EvalNumbers {
 		} else if(y > z && y > x) {
 			largest = y;
 			
-		} else if(z > x && z > y) {
+		} else if(> < x && z > y) {
 			largest = z;
 		}
 		
