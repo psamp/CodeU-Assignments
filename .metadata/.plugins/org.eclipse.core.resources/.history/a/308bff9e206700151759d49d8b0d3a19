@@ -1,0 +1,16 @@
+class CalcArea {
+	
+	public static double BaseXHeight(double b, double h) {
+		double area;
+		area = b * .5 * h;
+		return area;
+	}
+
+	public static void main(String[] args) {
+		double triangle;
+		triangle = BaseXHeight(3.61, 10.45);
+		System.out.print("This triangle has a base of 3 and a height of 10. Its area is " + triangle);
+		
+	}
+
+}

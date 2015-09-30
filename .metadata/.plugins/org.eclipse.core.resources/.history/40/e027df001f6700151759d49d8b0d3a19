@@ -1,0 +1,16 @@
+class CalcArea {
+	
+	public static int BaseXHeight(double b, double h) {
+		int area;
+		area = b / 2 * h;
+		return area;
+		
+	}
+
+	public static void main(String[] args) {
+		
+		BaseXHeight()
+		
+	}
+
+}

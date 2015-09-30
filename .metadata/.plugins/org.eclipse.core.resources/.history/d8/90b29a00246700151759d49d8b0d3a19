@@ -1,0 +1,18 @@
+class CalcArea {
+	
+//	This method could be dealing with decimals and other complex numbers, so set it to return a double.
+	public static double BaseXHeight(double b, double h) {
+		double area;
+//		Multiply by .5 instead of dividing by two. Doubles don't play nice with non-decimal numbers.
+		area = b * .5 * h;
+		return area;
+	}	
+//	Instantiate the main program. Call on our method for calculating triangle area with params passed in and print it. 
+	public static void main(String[] args) {
+		double triangle;
+		triangle = BaseXHeight(3, 10);
+		System.out.print("A triangle with a base of 3 and a height of 10 has an area of " + triangle);
+		
+	}
+
+}

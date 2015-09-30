@@ -1,0 +1,19 @@
+class CalcArea {
+	
+//	This method could be dealing with decimals and other complex numbers, so tell it to return a boolean.
+	public static double BaseXHeight(double b, double h) {
+		double area;
+		area = b * .5 * h;
+		return area;
+	}
+	
+//	Instantiate the main program.
+
+	public static void main(String[] args) {
+		double triangle;
+		triangle = BaseXHeight(3, 10);
+		System.out.print("A triangle with a base of 3 and a height of 10 has an area of " + triangle);
+		
+	}
+
+}

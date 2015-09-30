@@ -49,7 +49,6 @@ class EvalNumbers {
 		int add;
 		int average;
 		int product;
-		int smallest;
 		
 //		Call the above methods and pass in numbers.
 		add = GetSum(2, 4, 6);
