@@ -3,14 +3,14 @@
 class EvalNumbers {
 	
 //	Take three unknown integers, add them together and return the sum. 
-	public static int GetSum(int x, int y, int z) {
+	static int getSum(int x, int y, int z) {
 		int sum;
 		sum = x + y + z;
 		return sum;
 	}
 	
 //	Take three unknown integers, add them together and divide them by how many of them there are.
-	public static int GetAverage(int x, int y, int z, int v) {
+	 static int getAverage(int x, int y, int z, int v) {
 		int avg;
 		int num;
 		num = x + y + z;
@@ -19,14 +19,14 @@ class EvalNumbers {
 	}
 	
 //	Take three integers, and multiply them by each other.
-	public static int GetProduct(int x, int y, int z) {
+	static int getProduct(int x, int y, int z) {
 		int prod;
 		prod = x * y * z; 
 		return prod;
 	}
 	
 //	Take three integers, and evaluate which is the smallest. 
-	public static int GetSmallest(int x, int y, int z) {
+	static int getSmallest(int x, int y, int z) {
 		int sml;
 		int smallest;
 		smallest = 0;
@@ -44,7 +44,7 @@ class EvalNumbers {
 	}
 	
 //	Take three integers, and evaluate which is the largest. 
-	public static int GetLargest(int x, int y, int z) {
+	static int getLargest(int x, int y, int z) {
 		int lrg;
 		int largest;
 		largest = 0;
@@ -70,11 +70,11 @@ class EvalNumbers {
 		int largest;
 		
 //		Call the above methods and pass in params.
-		add = GetSum(2, 4, 6);
-		average = GetAverage(2, 4, 6, 3);
-		product = GetProduct(2, 4, 6);
-		smallest = GetSmallest(2, 4, 6);
-		largest = GetLargest(2, 4, 6);
+		add = getSum(2, 4, 6);
+		average = getAverage(2, 4, 6, 3);
+		product = getProduct(2, 4, 6);
+		smallest = getSmallest(2, 4, 6);
+		largest = getLargest(2, 4, 6);
 		
 //		Print messages in the console.
 		System.out.println("2, 4, and 6 have a sum of " + add + ".");

@@ -1,0 +1,21 @@
+// In a hurry, no time to cleanup after myself, but I'll do it later for you.
+  
+class CleanMe {
+
+
+public static void main(String [] args) {
+
+    int houseNumber = 456;
+    String oneStreet = "Fell St.";
+   
+    System.out.println("The house number is " + houseNumber + ", and it's on " + oneStreet)
+
+}
+
+
+// i'll finish this later
+
+    void AnotherMethod() {
+    	int firstNumber = 1;
+    	}
+}
