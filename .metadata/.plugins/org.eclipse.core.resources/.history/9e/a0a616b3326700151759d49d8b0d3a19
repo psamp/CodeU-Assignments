@@ -12,7 +12,7 @@ public class CClass {
 		b = (byte) i;
 		System.out.println("i and b " + i + " " + b);
 		
-//		Convert double to int, which means everything after the decimal is lost.
+//		Convert double to int, which means 323.142 mod 32.
 		System.out.println("\nConversion of double to int.");
 		i = (int) d;
 		System.out.println("d and i " + d + " " + i);
