@@ -8,7 +8,7 @@ public class USPop {
 		long growth;
 		long pop;
 		
-		currentPop = 318_900_000.000;
+		currentPop = 318900000.000;
 		rate = .007;
 		growth = 0;
 		pop = 0;
@@ -16,7 +16,7 @@ public class USPop {
 		//Take the current population. Calculate .7 percent of it, and add that to the current population.
 		for(int x = 0; x <= years; x++) {
 			double change = currentPop * rate;
-			pop = (long)(currentPop + change);
+			pop = (currentPop + change);
 			growth = pop;
 			
 		}

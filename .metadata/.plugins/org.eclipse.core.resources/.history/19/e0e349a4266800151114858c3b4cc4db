@@ -8,7 +8,7 @@ public class USPop {
 		long growth;
 		long pop;
 		
-		currentPop = 318_900_000.000;
+		currentPop = 318900000000;
 		rate = .007;
 		growth = 0;
 		pop = 0;
