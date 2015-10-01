@@ -3,21 +3,31 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="203" key="DIALOG_Y_ORIGIN"/>
-		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="485" key="DIALOG_X_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="smallest" key="selection"/>
+		<item value="getLargest" key="selection"/>
 		<list key="findhistory">
+			<item value="GetLargest"/>
+			<item value="GetSmallest"/>
+			<item value="GetProduct"/>
+			<item value="GetAverage"/>
+			<item value="GetSum"/>
 			<item value="smallest"/>
 		</list>
 		<list key="replacehistory">
+			<item value="getLargest"/>
+			<item value="getSmallest"/>
+			<item value="getProduct"/>
+			<item value="getAverage"/>
+			<item value="getSum"/>
 			<item value=""/>
 		</list>
 	</section>

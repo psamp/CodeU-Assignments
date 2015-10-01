@@ -1,0 +1,20 @@
+package com.psamp.oranges;
+
+public class Methods {
+	
+	// Take in an amount of people, modulo the oranges and return result.
+		public static String orangesLeft(int people) {
+			int orange = 10;
+			int result = (orange % people);
+			return "There are " + result + " oranges left.";
+		}
+		
+		// Take in  double of people, divide the oranges by them and return the result.
+		public static String orangesShared(double people) {
+			double orange = 10.00;
+			
+			double result = (orange / people);
+			return "Everyone has " + result + " oranges.";
+		}
+
+}

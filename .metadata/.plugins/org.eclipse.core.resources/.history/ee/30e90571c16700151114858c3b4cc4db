@@ -1,9 +1,0 @@
-package com.pp.usesym;
-
-public class USPop {
-	
-	public static void main(String [] args) {
-		
-	}
-	
-}

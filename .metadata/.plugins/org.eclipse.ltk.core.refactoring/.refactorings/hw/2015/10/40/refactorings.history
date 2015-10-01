@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hw/day3hw/com/psamp/oranges/collections.md&apos; to &apos;corrections.md&apos;" description="Rename resource &apos;collections.md&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="day3hw/com/psamp/oranges/collections.md" name="corrections.md" stamp="1443703489263" updateReferences="true"/>
+</session>
