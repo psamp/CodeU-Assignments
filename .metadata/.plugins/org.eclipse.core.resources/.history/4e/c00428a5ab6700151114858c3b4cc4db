@@ -1,0 +1,18 @@
+package com.pp.usesym;
+
+class UseSymbols {
+	
+	static int useDoublePluses(int x) {
+		int sum;
+		sum = x + x++;
+		return sum;
+	}
+	
+	public static void main(String [] args) {
+		int useDoublePluses = useDoublePluses(10, 20);
+		System.out.println("Used +." + useDoublePluses);
+		
+		
+	}
+
+}

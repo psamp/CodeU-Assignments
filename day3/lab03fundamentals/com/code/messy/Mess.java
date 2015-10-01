@@ -9,8 +9,7 @@ class Mess {
 	
 	    int houseNumber = 456;
 	    String oneStreet = "Fell St.";
-	   
-	    System.out.println("The house number is " + houseNumber + ", and it's on " + oneStreet);
+	    System.out.println("The house # is " + houseNumber + ", and it's on " + oneStreet);
 	
 	}
 }

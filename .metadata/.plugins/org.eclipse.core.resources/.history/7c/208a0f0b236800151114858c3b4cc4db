@@ -1,0 +1,24 @@
+package com.psamp.oranges;
+
+public class Oranges {
+	
+	static String orangesLeft(int people) {
+		int orange = 10;
+		int result = (orange % people);
+		return "There are " + result + " oranges left.";
+	}
+	
+	static String orangesShared(int people) {
+		int orange = 10;
+		double result = (orange / people);
+		return "Everyone has " + result + " oranges.";
+	}
+
+	public static void main(String [] args) {
+		String orangesLeft = orangesLeft(4);
+		String orangesShared = orangesLeft(4);
+		
+		System.out.println(orangesLeft);
+		System.out.println(orangesShared);
+	}
+}

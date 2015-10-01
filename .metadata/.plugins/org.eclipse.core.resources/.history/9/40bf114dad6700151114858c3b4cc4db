@@ -1,0 +1,48 @@
+package com.pp.usesym;
+
+class UseSymbols {
+	
+//	Take in an int, and add itself to it.
+	static int useDoublePluses(int x) {
+		int sum;
+		sum = x + x++;
+		return sum;
+	}
+	
+//	Take in an int, subtract iself from it.
+	static int useDoubleHyphens(int y) {
+		int sum;
+		sum = y - y--;
+		return sum;
+	}
+	
+//	See which of three numbers is the largest.
+	static int useDoubleAmp(int x, int y, int z) {
+		int sml;
+		int smallest;
+		smallest = 0;
+		
+		if (x>y && x>z) {
+			smallest = x;
+		} else if(y>x && y>z) {
+			smallest = x;
+		} else if(z>y && z>x) {
+			smallest = x;
+		}
+		
+		sml = smallest;
+		return sml;
+	} 
+	
+	public static void main(String [] args) {
+		int useDoublePluses = useDoublePluses(10);
+		int useDoubleHyphens = useDoubleHyphens(10);
+		int use usedDoubleAmp = usedDoubleAmp(10, 20, 30);
+		System.out.println("Used ++.");
+		System.out.println("Used --.");
+		System.out.println("Used &&." + usedDoubleAmp);
+		
+		
+	}
+
+}

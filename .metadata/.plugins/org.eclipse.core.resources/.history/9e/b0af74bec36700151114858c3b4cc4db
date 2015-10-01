@@ -1,0 +1,30 @@
+package com.pp.usesym;
+
+public class USPop {
+	
+	static double popGrowth(int years) {
+		int x;
+		long pop;
+		double rate;
+		double growth;
+		
+		growth = 0;
+		
+		for(x = 0; x <= years; x++) {
+			pop = 318_900_000;
+			rate = .7 * years;
+			
+			growth = pop * rate;
+			
+		}
+		return growth;
+	}
+	
+	public static void main(String [] args) {
+	
+		int growth;
+		growth = popGrowth(5)
+		
+	}
+	
+}
