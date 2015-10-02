@@ -1,0 +1,13 @@
+package com.psamp.day4;
+import java.util.Arrays;
+
+class AdmireArray {
+
+	public static void main(String[] args) {
+		String admireArray[] = {"Rodney Sampson I", "Shanterria Sampson", "Bucky Barnes", "Avatar Korra", "Ahsoka Tano"};
+		
+		System.out.println("I admire" + Arrays.toString(admireArray));
+
+	}
+
+}

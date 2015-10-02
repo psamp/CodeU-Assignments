@@ -1,0 +1,12 @@
+package com.psamp.day4;
+
+class AdmireArray {
+
+	public static void main(String[] args) {
+		String admireArray[];
+		
+		admireArray = new String[5]''
+
+	}
+
+}
