@@ -1,0 +1,9 @@
+package com.calculator;
+
+public class Event {
+	
+//	This method takes no params, returns nothing, but prints a message.
+	static void doNothing() {
+		System.out.println("I am an extremely lazy method!");
+	}
+}

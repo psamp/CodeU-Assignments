@@ -3,7 +3,7 @@ package com.psamp.oranges;
 public class Methods {
 	
 	// Take in an amount of people, modulos the oranges and returns the result.
-		public static String orangesLeft(int people) {
+		static String orangesLeft(int people) {
 			int x = 10;
 			int result = (x % people);
 			
@@ -11,7 +11,7 @@ public class Methods {
 		}
 		
 		// Take in  double of people, divide the oranges by them and return the result.
-		public static String orangesShared(double people) {
+		static String orangesShared(double people) {
 			double y = 10;
 			double result = (y / people);
 			

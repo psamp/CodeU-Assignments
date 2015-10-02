@@ -1,0 +1,12 @@
+package com.calculator;
+
+class UseEvents {
+
+	public static void main(String[] args) {
+		Event.doNothing();
+		Event.takeParam(5);
+		Event.addTheseTwo(5, 10);
+
+	}
+
+}
