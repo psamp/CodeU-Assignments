@@ -1,7 +1,7 @@
 package com.psamp.day4;
 import java.util.Arrays;
 
-//This program should take an array and print its entirety to the console.
+//This program should take an array, sort it alphabetically, and print its entirety to the console.
 
 class AdmireArray {
 

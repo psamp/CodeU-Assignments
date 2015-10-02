@@ -1,7 +1,7 @@
 package com.psamp.day4;
 
  class BoxDemo5 {
-//	 Start the program. Create new boxes, set their dimensions, and compute and print their value.
+//	Start the program. Create new boxes, set their dimensions, and compute and print their value.
 	public static void main(String[] args) {
 		
 		Box myBox1 = new Box();

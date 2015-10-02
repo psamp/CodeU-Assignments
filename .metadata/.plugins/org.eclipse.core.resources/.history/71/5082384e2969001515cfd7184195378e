@@ -1,0 +1,22 @@
+package com.calculator;
+
+class Primitives {
+
+	public static void main(String [] args) {
+		
+//		byte
+		byte one = 27;
+		System.out.println("byte one = " + one + ".");
+//		short
+		short two = ;
+		System.out.println("short two = " + two + ".");
+//		int
+//		long
+//		float
+//		double
+//		char
+//		boolean
+		
+	}
+
+}
