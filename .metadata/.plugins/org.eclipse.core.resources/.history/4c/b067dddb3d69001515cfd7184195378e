@@ -1,0 +1,15 @@
+package com.calculator;
+
+class EventClient {
+
+	public static void main(String[] args) {
+		Event evt = new Event();
+		evt.doNothing();
+		evt.takeParam(5);
+		String add = evt.addTheseTwo(5, 10);
+		
+		System.out.println(add);
+
+	}
+
+}

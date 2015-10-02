@@ -1,0 +1,15 @@
+package com.psamp.printstars;
+
+
+class PrintStars {
+
+	public static void main(String[] args) {
+		for (int i = 0; i < 21; i++) {
+			StringBuilder num = new StringBuilder(5);
+			String str = num.toString();
+			System.out.println(str);
+		}
+
+	}
+
+}

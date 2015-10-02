@@ -1,0 +1,21 @@
+package com.psamp.printstars;
+import java.util.Arrays;
+
+class PrintStars {
+
+	
+	public static void main(String[] args) {
+		
+		int oneThroughTwenty[] = {4, 6, 8, 10, 12};
+		
+		for (int i = 0; i < oneThroughTwenty.length; i++) {
+			System.out.println( "\n" + oneThroughTwenty[i]);
+			
+			for (int j = 0; j < i + 1; j++) {
+				System.out.print("*");
+			}
+		}
+
+	}
+
+}
