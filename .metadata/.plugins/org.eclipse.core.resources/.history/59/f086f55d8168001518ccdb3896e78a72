@@ -1,0 +1,15 @@
+package com.psamp.ktom;
+
+public class Methods {
+	
+	//Take in a mile, and convert it into kilometers ([miles] * 1.6.)
+	public static String milesToKilos(double miles) {
+		double result;
+		String guiText;
+		String isText;
+		result = miles * 1.6;
+		guiText = "The amount of kilometers in ";
+		isText = " is";
+		return String.format(miles + " is %.5f", result);
+	}
+}

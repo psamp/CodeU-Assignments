@@ -1,0 +1,19 @@
+package com.psamp.ktom;
+import java.util.Scanner;
+
+public class Methods {
+	
+	//Take in a mile, and convert it into kilometers ([miles] * 1.6.) Use a more exact decimal than 1.6 so your values are more exact.
+	static double milesToKilos(Scanner input) {
+		System.out.println("Enter miles to convert to km.");
+		double result;
+		double km;
+		km = input.nextDouble();
+		
+		result = km * 1.60934;
+		
+//		return input + " equals " + result + " kilometers.";
+		
+		
+	}
+}

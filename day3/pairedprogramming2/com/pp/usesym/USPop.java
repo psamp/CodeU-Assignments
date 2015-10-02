@@ -2,34 +2,36 @@ package com.pp.usesym;
 
 public class USPop {
 	
-	static long popGrowth(int years) {
+	static String popGrowth(double years) {
 		double currentPop;
 		double rate;
-		long growth;
-		long pop;
 		
 		currentPop = 318_900_000.000;
 		rate = .007;
-		growth = 0;
-		pop = 0;
+		
 		
 		//Take the current population. Calculate .7 percent of it, and add that to the current population.
 		for(int x = 0; x <= years; x++) {
 			double change = currentPop * rate;
-			pop = (long)(currentPop + change);
-			growth = pop;
-			
+			currentPop = currentPop + change;
 		}
 		
-		return growth;
+		return "The United State's population will be " + currentPop + " in " + years + " years."; 
 	}
 	
 	public static void main(String [] args) {
 	
-		long popGrowth;
-		popGrowth = popGrowth(5);
+		String popGrowth5;
+		String popGrowth10;
+		String popGrowth15;
 		
-		System.out.println("The US' population will be " + popGrowth + " in the amount of years you specified." );
+		popGrowth5 = popGrowth(1);
+		popGrowth10 = popGrowth(5);
+		popGrowth15 = popGrowth(10);
+		
+		System.out.println(popGrowth5);
+		System.out.println(popGrowth10);
+		System.out.println(popGrowth15);
 		
 	}
 	

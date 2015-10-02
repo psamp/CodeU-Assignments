@@ -50,12 +50,6 @@ class UseSymbols {
 		return youAre;
 	}
 	
-//	static String setEx(int x, int y) {
-//		int z;
-//		z = x & y;
-//		return "x is " + z + ".";
-//	}
-	
 //	See whether or not there's a remainder when two numbers are reduced modulo.
 	static String checkForRemainder(double x, double y){
 		String remainder;
@@ -67,7 +61,7 @@ class UseSymbols {
 			remainder = "There's a remainder.";
 		}
 		return remainder;
-	} 
+	}
 	
 	public static void main(String [] args) {
 		int toSecondPower = toSecondPower(10);
@@ -75,7 +69,6 @@ class UseSymbols {
 		int findLargest = findLargest(10, 20, 30);
 		String findAge = findAge(18);
 		String checkForRemainder = checkForRemainder(100, 9);
-//		String setEx = setEx(60, 70);
 		
 		
 		System.out.println("Used ++: " + toSecondPower);
@@ -83,7 +76,6 @@ class UseSymbols {
 		System.out.println("Used &&: " + findLargest);
 		System.out.println("Used !: " + findAge);
 		System.out.println("Used %: " + checkForRemainder);
-//		System.out.println("Used |: " + setEx);
 		
 		
 	}

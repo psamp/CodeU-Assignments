@@ -1,0 +1,15 @@
+package com.psamp.ktom;
+import java.util.Scanner;
+
+class Ktom {
+
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		String kmToMi = Methods.milesToKilos(console);
+		
+		System.out.println("Enter miles to convert to km.");
+		System.out.printf(kmToMi);
+
+	}
+
+}
