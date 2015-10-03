@@ -1,0 +1,9 @@
+package com.psamp.printstars;
+
+public class Methods {
+			
+	void takeInArrayandPrintAsterisks() {
+		
+	}
+
+}

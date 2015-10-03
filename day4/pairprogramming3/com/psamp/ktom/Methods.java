@@ -3,7 +3,10 @@ import java.util.Scanner;
 
 public class Methods {
 	
-	//Take in a mile, and convert it into kilometers ([miles] * 1.6.) Use a more exact decimal than 1.6 so your values are more exact.
+	/* 
+	 * Take in a mile, and convert it into kilometers ([miles] * 1.6.) 
+	 * Use a more exact decimal than 1.6 so your values are more exact.
+	*/
 	void milesToKilos(Scanner input) {
 		
 		try {

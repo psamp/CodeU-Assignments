@@ -1,0 +1,17 @@
+package com.psamp.printstars;
+import java.util.Scanner;
+
+public class Methods {
+			
+	void takeInArrayandPrintAsterisks(Scanner input) {
+//		Attempt to execute this code. Else, close the scanner.
+		try {
+			
+			System.out.println("Enter five numbers, seperated by commas.");
+			
+		} finally {
+			
+		}
+	}
+
+}
