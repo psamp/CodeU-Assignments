@@ -18,13 +18,13 @@ class ControlNBreak {
 				case 3:
 				case 6:
 				case 9:
-					System.out.println("Multiple of three! " + i);
+					System.out.println("We're multiples of three! " + i);
 					break;
 				default:
 					System.out.println("Dolor si amet. " + i);
 					continue countToTen;
 			}
-			System.out.println("Also a multiple of three! " + i);
+			System.out.println("We're multiples of three too! " + i);
 			
 		}
 		
