@@ -1,0 +1,40 @@
+package com.psamp.toswitch;
+
+class IfToSwitch {
+
+	public static void main(String[] args) {
+		int month = 4;
+		String season;
+		
+		switch(month) {
+//		winter
+		case 12:
+			System.out.println("It's winter.");
+		case 1:
+			System.out.println("It's winter.");
+		case 3:
+			System.out.println("It's winter.");
+//		spring
+		case 4:
+			System.out.println("It's spring.");
+		case 5:
+			System.out.println("It's spring.");
+		case 6:
+			System.out.println("It's spring.");
+//		summer
+		case 7:
+			System.out.println("It's summer.");
+		case 8:
+			System.out.println("It's summer.");
+//		fall
+		case 9:
+			System.out.println("It's fall.");
+		case 10:
+			System.out.println("It's fall.");
+		case 11:
+			System.out.println("It's fall.");
+		}
+
+	}
+
+}

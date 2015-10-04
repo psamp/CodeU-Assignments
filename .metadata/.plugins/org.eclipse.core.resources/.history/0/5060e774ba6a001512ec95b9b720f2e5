@@ -1,0 +1,31 @@
+package com.psamp.contronbreak;
+
+//This program should exhibit break and continue.
+
+class ControlNBreak {
+	
+//	Start program.
+	
+	public static void main(String[] args) {
+		
+//		Give this for-loop a label.
+		countTo10: for (int i = 0; i < 11; i++) {
+			
+			In the case of i being 3, 6, or 9,  
+			switch(i) {
+				case 3:
+				case 6:
+				case 9:
+					System.out.println("We're multiples of three! " + i);
+					break;
+				default:
+					continue countTo10;
+			}
+			System.out.println("Where'd the numbers go?");
+			
+		}
+		
+
+	}
+
+}

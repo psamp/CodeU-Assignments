@@ -1,0 +1,45 @@
+package com.psamp.toswitch;
+
+class IfToSwitch {
+
+	public static void main(String[] args) {
+		int month = 4;
+		String season = "";
+		
+		switch(month) {
+	//		winter
+			case 12:
+				season = " Winter.";
+			case 1:
+				season = " Winter.";
+			case 2:
+				
+	//		spring
+			case 3:
+				season = " Spring.";
+			case 4:
+				season = " Spring.";
+			case 5:
+				season = " Spring.";
+	//		 summer
+			case 6:
+				season = " Summer.";
+			case 7:
+				season = " Summer.";
+			case 8:
+				season = " Summer.";
+	//		fall
+			case 9:
+				season = " Fall.";
+			case 10:
+				season = " Fall.";
+			case 11:
+				season = " Fall.";
+//			default:
+//				season = " Bogus month.";
+		}
+		
+		System.out.println("April is in the season of" + season);
+	}
+
+}

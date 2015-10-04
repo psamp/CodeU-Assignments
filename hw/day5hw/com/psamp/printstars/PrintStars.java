@@ -9,13 +9,13 @@ class PrintStars {
 	public static void main(String[] args) {
 		
 //		Create an array and declare for loop variable.
-		int numArray[] = {1, 6, 8, 25, 88};
+		int numArray[] = {1, 6, 8, 25, 88, 66};
 		int i;
 		
 //		This for loop that will run until it's iterated the length of the array passed in.
 		for (i = 0; i < numArray.length; i++) {
 			
-//		If the length of the passed in array is less than or greater than five, let the user know and break the loop.
+//		If the length of the passed in array is less than or greater than five, let the user know and break the loop (or error will print five times.)
 			 if (numArray.length < 5 || numArray.length > 5) {
 				
 				System.out.println("Please enter an array with no more or less than five numbers.");
