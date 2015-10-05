@@ -6,11 +6,10 @@ package com.psamp.day4;
 	 double width;
 	 double depth;
 	 
-	 double volume(String boxName) {
+	 void volume(String boxName) {
 		 double vol;
 		 vol = width * height * depth;
 		 System.out.println("The volume of " + boxName + " is " + vol);
-		 return 0;
 	 }
 
  

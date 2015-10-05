@@ -1,0 +1,10 @@
+package com.psamp.box7usedefault;
+
+public class BoxDemo7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

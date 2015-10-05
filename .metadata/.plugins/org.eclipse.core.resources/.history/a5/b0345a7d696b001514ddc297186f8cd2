@@ -1,0 +1,20 @@
+package com.psamp.box7usedefault;
+
+class Box {
+	  double width;
+	  double height;
+	  double depth;
+	  
+	  // Set Dimensions.
+	  Box() {
+		System.out.println("Constructing box...");
+	    width = 3;
+	    height = 5;
+	    depth = 9;
+	}
+	  //Return volume.
+	  void volume(String name) {
+	    double vol = width * height * depth;
+	    System.out.println("The volume of " + name + " is " + vol + ".");
+	  }
+	}

@@ -1,47 +1,47 @@
 package com.psamp.printstars;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Methods {
-			
-	void takeInArrayandPrintAsterisks(Scanner input) {
+	
+/*	
+*	Take in an integer. Create an empty string. Loop until j is less than or equal to the argument. 
+*	Every loop, add a asterisk to the value of str. Return str.
+*/
+
+	String printStars(int i) {
+		String str = "";
+		for (int j = 0; j < i; j++) {
+			str += "*";
+		}
+		return str;
+	}
+	
+/*	
+ * 	Take in five integers. Create an array out of them. 
+ * 	Start a loop that adds one to j until it's less than or equal to the length of our array.
+ */
+	void numberOfStars(int a, int b, int c, int d, int e) {
+		int nums[] = {a, b, c, d, e};
 		
-		System.out.println("Enter five numbers, seperated by commas.");
-		
-		int i;
-		String ipt = input.next();
-		String stringArray[] = ipt.split(",");
-		
-		double doubleArray[] = new double[stringArray.length];
-		
-		//Attempt to execute this code. Else, close the scanner.
-		try {
-			
-			//This for loop that will run until it's iterated the length of the array passed in.
-			for (i = 0; i < doubleArray.length; i++) {
-			//If the length of the passed in array is less than or greater than five, let the user know and break the loop.
-				 if (doubleArray.length < 5 || doubleArray.length > 5) {
-					System.out.println("Please enter an array with no more or less than five numbers.");
-					break;
+		for(int i = 0; i < nums.length; i++) {
 					
-				} else if (doubleArray[i] > 20) {	
-					//If the value of the current array index is greater than 20, send the user a message indicating this.
+				if (nums[i] > 20) {	
+					
+//					If the value of the current array index is greater than 20, send the user a message indicating this.	
 					System.out.print("\n");
-					System.out.println( "You entered " + doubleArray[i] + ". No printing more than 20 asterisks!");
+					System.out.println( "You entered " + nums[i] + ". No printing more than 20 asterisks!");
 					
 				} else {
-					/*Else, print the value and run a for loop that will print as many asterisks as the value of the 
-					array index being passed in.*/
-					System.out.println( "\n" + doubleArray[i]);
 					
-					for (int j = 0; j < doubleArray[i]; j++) {
-						System.out.print("*");
+/*					
+ * 					Else, print out a new line, the value of the current array index, and call printStars and pass in the value
+ * 					index of the current array.
+*/
+					System.out.println("\n" + nums[i] + "\n" + printStars(nums[i]));
+						
 					}
 				}
-			}
-			
-		} finally {
 			
 		}
+		
 	}
-
-}

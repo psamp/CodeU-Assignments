@@ -1,0 +1,14 @@
+package com.psamp.printstars;
+import java.util.Scanner;
+
+public class Methods {
+			
+	String printStars(int i) {
+		
+	}
+	
+	void numberOfStars() {
+		
+	}
+
+}

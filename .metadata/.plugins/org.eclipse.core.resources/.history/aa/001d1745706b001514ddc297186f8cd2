@@ -1,0 +1,44 @@
+package com.psamp.printstars;
+import java.util.Scanner;
+
+public class Methods {
+			
+	String printStars(int i) {
+		String str = "";
+		for (int j = 0; j < i; j++) {
+			str += "*";
+		}
+		return str;
+	}
+	
+	void numberOfStars(int a, int b, int c, int d, int e) {
+		int nums[] = {a, b, c, d, e};
+		
+		for(int i = 0; i < nums.length; i++) {
+			
+//			If the length of the passed in array is less than or greater than five, let the user know and break the loop (or error will print five times.)
+				 if (nums.length < 5 || nums.length > 5) {
+					
+					System.out.println("Please enter an array with no more or less than five numbers.");
+					break;
+					
+				} else if (nums[i] > 20) {	
+					
+//					If the value of the current array index is greater than 20, send the user a message indicating this.	
+					System.out.print("\n");
+					System.out.println( "You entered " + nums[i] + ". No printing more than 20 asterisks!");
+					
+				} else {
+					
+	/*				
+	* 				Else, print the value and run a for loop that will print as many asterisks as the value of the 
+	*				array index being passed in.
+	*/
+					System.out.println(i + "\n" + printStars(nums[i]));
+						
+					}
+				}
+			
+		}
+		
+	}
