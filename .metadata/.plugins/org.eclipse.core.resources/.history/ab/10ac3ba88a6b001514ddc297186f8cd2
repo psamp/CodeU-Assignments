@@ -1,0 +1,36 @@
+package com.psamp.calculator;
+
+class Calculator {
+
+	double addThese(double a, double b) {
+		double sum = a + b;
+		return sum;
+	}
+	
+	double subtractThese(double x, double y) {
+		double left = x - y;
+		return left;
+	}
+	
+	double multiplyThese(double g, double h) {
+		double product = g * h;
+		return product;
+	}
+	
+	double divideThese(double j, double k) {
+		double result = j / k;
+		return result;
+	}
+	
+	double divideTheseIntegers(int c, int d) {
+		double result = j / k;
+		return result;
+	}
+	
+	int getLength(String abcs) {
+		
+		
+		
+	}
+	
+}

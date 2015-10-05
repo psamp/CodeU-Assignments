@@ -1,0 +1,10 @@
+package com.psamp.calculator;
+
+class Calculator {
+
+	double addThese(double a, double b) {
+		double sum = a + b;
+		return sum;
+	}
+	
+}

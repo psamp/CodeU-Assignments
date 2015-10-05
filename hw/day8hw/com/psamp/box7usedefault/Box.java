@@ -7,7 +7,7 @@ class Box {
 	  
 	  //Return volume.
 	  void volume(String name) {
-	    double vol = width * height * depth;
+	    double vol = this.width * this.height * this.depth;
 	    System.out.println("The volume of " + name + " is " + vol + ".");
 	  }
 	}

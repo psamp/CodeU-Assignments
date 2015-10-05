@@ -8,14 +8,14 @@ public class Box {
 	
 	Box(double w, double h, double d) {
 		System.out.println("Constructing box...");
-		width = w;
-		height = h;
-		depth = d;
+		this.width = w;
+		this.height = h;
+		this.depth = d;
 	}
 	
 	double volume(String boxName) {
 		 double vol;
-		 vol = width * height * depth;
+		 vol = this.width * this.height * this.depth;
 		 System.out.println("The volume of " + boxName + " is " + vol + ".");
 		 return 0;
 	 }

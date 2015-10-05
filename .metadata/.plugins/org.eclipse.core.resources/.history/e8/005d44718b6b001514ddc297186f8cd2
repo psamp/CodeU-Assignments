@@ -1,0 +1,12 @@
+package com.psamp.calculator;
+
+class CalculatorClient {
+
+	public static void main(String[] args) {
+		 Calculator calc = new Calculator();
+		 
+		 System.out.println(calc.addThese(1, 2));
+		 
+	}
+
+}
