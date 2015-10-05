@@ -19,9 +19,9 @@ class IdentityTest {
 		
 //		Check if evnThree and evnTwo are equal.
 		if(evnThree == evnTwo) {
-			System.out.println("evnThree and evnTwo are equal!");
+			System.out.println("evnOne and evnTwo are equal!");
 		} else {
-			System.out.println("evnThree and evnTwo are not equal.");
+			System.out.println("evnOne and evnTwo are not equal.");
 		}
 	}
 }
