@@ -1,0 +1,10 @@
+package com.psamp.lab4pt1;
+
+public class IdentityTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

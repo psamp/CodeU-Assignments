@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/day3/lab03fundamentals/com/psamp/calculator/CalculatorClient.java"/>
+<listEntry value="/day3/lab03fundamentals/com/psamp/lab3pt4/CalculatorClient.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.psamp.calculator.CalculatorClient"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.psamp.lab3pt4.CalculatorClient"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="day3"/>
 </launchConfiguration>

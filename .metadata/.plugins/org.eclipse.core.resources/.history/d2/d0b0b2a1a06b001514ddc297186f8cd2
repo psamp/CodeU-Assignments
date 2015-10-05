@@ -1,0 +1,19 @@
+package com.psamp.lab4pt1;
+import com.psamp.lab3pt3.Event;
+
+class IdentityTest {
+
+	public static void main(String[] args) {
+		Event evnOne = new Event();
+		Event evnTwo = new Event();
+		
+		if(evnOne == evnTwo) {
+			System.out.println("These objects are equal!");
+		} else {
+			System.out.println("These objects are not equal.");
+		}
+		
+
+	}
+
+}
