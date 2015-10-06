@@ -21,7 +21,7 @@ public class Methods {
  * 	Start a loop that adds one to j until it's less than or equal to the length of our array.
  */
 	void numberOfStars(int a, int b, int c, int d, int e) {
-		int nums[] = {a, b, c, d, e};
+		int[] nums = {a, b, c, d, e};
 		
 		for(int i = 0; i < nums.length; i++) {
 					

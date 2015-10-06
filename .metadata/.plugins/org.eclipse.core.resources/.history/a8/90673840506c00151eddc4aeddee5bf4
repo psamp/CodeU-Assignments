@@ -1,0 +1,10 @@
+package com.codeu.psamp;
+
+class Students {
+	
+	public static void main(String[] args) {
+		
+		String[] names = arrayOne[3];
+
+	}
+}

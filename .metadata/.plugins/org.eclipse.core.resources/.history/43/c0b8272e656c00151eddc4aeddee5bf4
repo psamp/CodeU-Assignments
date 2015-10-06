@@ -1,0 +1,11 @@
+
+public class MethodsClient {
+
+	public static void main(String[] args) {
+		String[] namesArray = {bucky, korra, waldo, ahsoka};
+		
+		
+		
+	}
+
+}

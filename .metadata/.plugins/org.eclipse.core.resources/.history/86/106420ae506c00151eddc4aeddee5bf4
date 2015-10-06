@@ -1,0 +1,16 @@
+package com.codeu.psamp;
+
+class Students {
+	
+	public static void main(String[] args) {
+		
+		String[] names = new String[3];
+		String[] namesShort = {"Sampson", "Najae", "Julie" };
+		
+		names[0] = "Sampson";
+		names[1] = "Najae";
+		names[2] = "Julia";
+		
+
+	}
+}

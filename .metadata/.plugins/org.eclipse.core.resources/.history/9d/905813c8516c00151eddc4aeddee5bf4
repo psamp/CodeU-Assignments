@@ -1,0 +1,13 @@
+package com.codeu.psamp;
+
+class Arguments {
+
+	public static void main(String[] args) {
+		
+		System.out.println("There are " + args.length + " arguments.");
+		System.out.println("The first argument is " + args[0] + "."  );
+//		System.out.println("The hundreth argument is " + args[99] + "."  );
+
+	}
+
+}
