@@ -56,7 +56,7 @@ class IdentityTest {
 		}
 		
 //		Use equals method.
-		System.out.println(s1.equals(s3));
+		System.out.println(s2.equals(s3));
 		
 	}
 }

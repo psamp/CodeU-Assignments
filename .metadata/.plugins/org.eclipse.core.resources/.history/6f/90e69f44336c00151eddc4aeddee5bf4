@@ -43,9 +43,9 @@ class IdentityTest {
 		
 //		Check if s2 and s3 are the same.
 		if (s2 == s3) {
-			System.out.println("s2 and s3 are equal.");
+			System.out.println("s1 and s3 are equal.");
 		} else {
-			System.out.println("s2 and s3 are not equal.");
+			System.out.println("s1 and s3 are not equal.");
 		}
 		
 //		Check if s3 is the same as s1 and s2.
