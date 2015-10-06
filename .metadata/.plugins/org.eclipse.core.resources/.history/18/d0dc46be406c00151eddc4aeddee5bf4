@@ -7,6 +7,7 @@ public class FixString {
 		String b = "  a great langu";
 		
 		// Fix a.
+//		String replaceVowels = a.replace("o", "a").replace("      ", "").toUpperCase();
 		String replaceVowels = a.replace("o", "a").trim().toUpperCase();
 
 		// Fix b.
