@@ -5,12 +5,13 @@ public class MethodsClient {
 		
 //		Create array of names.
 		String[] namesArray = {"Bucky", "Korra", "Waldo", "Ahsoka"};
+		String[] namesArray2 = {"Anakin", "Padme", "Satine", "Waldo", "Obi-Wan"};
 		
 //		New instance of methods.
 		Methods mthds = new Methods();
 		
-//		Call wheresWaldo.
-		mthds.wheresWaldo(namesArray);
+//		Call where's waldo.
+		mthds.wheresWaldo(namesArray2);
 		
 	}
 
