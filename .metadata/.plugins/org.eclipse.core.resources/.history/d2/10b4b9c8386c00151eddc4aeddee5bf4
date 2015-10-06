@@ -1,0 +1,18 @@
+package com.psamp.fixstring;
+
+public class FixString {
+
+	public static void main(String[] args) {
+		String a = "Jovo is      ";
+		String b = "  a great langu";
+		
+//		To uppercase.
+		String upperB = b.toUpperCase();
+
+		//		Fix.
+		String fixB = b + "age";
+		
+		System.out.println(fixB);
+	}
+
+}
