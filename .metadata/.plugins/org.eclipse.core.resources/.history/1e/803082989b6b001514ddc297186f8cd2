@@ -1,9 +1,0 @@
-package snippet;
-
-public class Snippet {
-	  _.filter(products, function(food){
-	        if(food.containsNuts === true){
-	          console.log("title", food.name);
-	        }});
-}
-

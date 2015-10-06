@@ -11,7 +11,7 @@ class ControlNBreak {
 //		Give this for-loop a label.
 		countToTen: for (int i = 0; i < 11; i++) {
 			
-/*			In the case of i being 3, 6, or 9, inform the user that they're multiples of three and break out of the loop. 
+/*			In the case of i being 3, 6, or 9, inform the user that they're multiples of three and break out of the loop, which executes line 28.
 *			If i is any other value, print a message, and then continue countToTen, restarting the for-loop and printing the message after the switch.
 */
 			switch(i) {

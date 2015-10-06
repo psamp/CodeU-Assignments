@@ -1,6 +1,6 @@
 package com.psamp.lab3pt4;
 
-class Calculator {
+public class Calculator {
 
 //	Add two doubles.
 	double addThese(double a, double b) {
