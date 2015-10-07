@@ -1,0 +1,25 @@
+package com.psamp.turtle;
+
+class Turtle {
+	int age = 0;
+	
+	int ageUp(int years) {
+		this.age += years;
+		
+		return this.age;
+	}
+	
+	void eatLeaves(int leaves) {
+		System.out.println("Ate " + leaves + "." );
+	}
+	
+	double walkAround(double steps) {
+		return steps;
+	}
+	
+	 barkBark() {
+		System.out.println("*wendigo noises*");
+	}
+	
+
+}
