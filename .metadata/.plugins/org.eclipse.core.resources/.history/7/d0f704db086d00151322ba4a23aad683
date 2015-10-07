@@ -1,0 +1,28 @@
+package com.psamp.mssg;
+
+class DailyMessage {
+	
+//	Start program.
+	void getMessage(String day) {
+		
+//		Ignoring case, check if day is one of a set of days of the week, and print out a message based on the value.
+		if(day.equalsIgnoreCase("monday") || day.equalsIgnoreCase("wednesday") || day.equalsIgnoreCase("friday")) {
+		
+			System.out.println("study day");
+			
+		} else if(day.equalsIgnoreCase("tuesday") || day.equalsIgnoreCase("thursday")) {
+			
+			System.out.println("gym day");
+		
+		} else if(day.equalsIgnoreCase("saturday") || day.equalsIgnoreCase("sunday")) {
+		
+			System.out.println("weekend");
+		
+		} else {
+		
+			System.out.println("invalid day");
+		
+		}		
+	
+	}
+}

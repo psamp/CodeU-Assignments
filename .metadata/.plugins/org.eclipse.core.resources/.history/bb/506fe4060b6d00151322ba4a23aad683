@@ -1,0 +1,18 @@
+package com.psamp.mssg;
+import java.util.Scanner;
+
+public class DailyMessageClient {
+
+//	Start program.
+	public static void main(String[] args) {
+		
+//		New instances of DailyMessage and Scanner.
+		Scanner scn = new Scanner(System.in);
+		DailyMessage dm = new DailyMessage();
+		
+//		Call dailyMessage and pass in different days with various cases.
+		dm.getMessage(scn);
+
+	}
+
+}

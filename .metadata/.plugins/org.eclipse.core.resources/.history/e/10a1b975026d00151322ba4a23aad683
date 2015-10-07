@@ -1,0 +1,18 @@
+package com.psamp.mssg;
+
+class DailyMessage {
+	
+	void getMessage(String day) {
+		
+		if(day.toLowerCase() == "wednesday" || day.toLowerCase() == "friday") {
+			System.out.println("study day");
+		} else if(day.toLowerCase() == "tuesday" || day.toLowerCase() == "thursday") {
+			System.out.println("gym day");
+		} else if(day.toLowerCase() == "saturday" || day.toLowerCase() == "sunday") {
+			System.out.println("weekend");
+		} else {
+			System.out.println("invalid day");
+		}		
+	}
+
+}

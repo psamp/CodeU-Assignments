@@ -1,0 +1,55 @@
+package com.psamp.fiveptoneb;
+import java.util.Scanner;
+
+public class DailyMessageWithEnums {
+	
+	public enum daysOfWeek{MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
+	
+	void getMessage(Scanner day) {
+		System.out.println("Enter day of week:" + "\n");
+		
+//		Save input.
+		String input = day.next();
+		
+//		Sysouts.
+		String studyDay = "Study day.";
+		String gymDay = "Gym day.";
+		String wknd = "Weekend.";
+		
+/*		Try:
+ * 		Ignoring case, check if day is one of a set of days of the week, and print out a message based on the value. 
+ * 		Else, tell user they entered an invalid day.
+ * 		Finally:
+ * 		Close the scanner.
+ */
+		
+		try {
+			
+			switch(input) {
+			case daysOfWeek.valueOf(MONDAY):
+			case daysOfWeek.valueOf(WEDNESDAY):
+			case daysOfWeek.valueOf(FRIDAY):
+				
+				System.out.println(studyDay);
+			
+			case daysOfWeek.valueOf(TUESDAY):
+			case daysOfWeek.valueOf(THURSDAY):
+			
+				System.out.println(gymDAY);
+			
+			case daysOfWeek.valueOf(SATURDAY):
+			case daysOfWeek.valueOf(SUNDAY):
+				
+				System.out.println(wknd);
+			
+			default:
+				System.out.println("Invalid, multi-day, or misspelled day.");
+			}
+			
+		} finally {
+			
+			day.close();
+		}
+	
+	}
+}
