@@ -1,5 +1,0 @@
-package day2;
-
-class HelloWorldEclipse {
-	public static void main(String [] args);
-}
