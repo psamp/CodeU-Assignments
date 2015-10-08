@@ -1,0 +1,26 @@
+package com.psamp.stocks;
+
+import java.util.Arrays;
+
+class StockClient {
+
+	public static void main(String[] args) {
+		
+//		New array of Stocks class.
+		Array[][] stocks = {
+				{"ABC", 20.01, 1.30},
+				{"DEF", 30.11, .99},
+				{"DEF", 30.11, .99},
+				{"JKL", 10.31, 1.19},
+				{"MNO", 23.55, 4.21}
+		};
+		
+		for (int i = 0; i < stocks.length; i++) {
+			
+			for (int j = 0; j < stocks[i].length; j++) {
+				System.out.println(stocks[i][j]);
+			}
+			
+		}
+	}
+}

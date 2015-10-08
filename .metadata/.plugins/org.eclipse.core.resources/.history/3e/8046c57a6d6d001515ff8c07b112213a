@@ -1,0 +1,34 @@
+package com.psamp.stocks;
+import java.util.Arrays;
+
+class StockClient {
+	
+//	Start program.
+	public static void main(String[] args) {
+		
+//		New array of Stocks.
+		Stock stocks[] = {
+				new Stock("ABC", 20.01, 1.30),
+				new Stock("DEF", 30.11, .99),
+				new Stock("GHI", 30.11, 1.99),
+				new Stock ("JKL", 0.31, 1.19),
+				new Stock ("MNO", 23.55, 4.21)
+		};
+		
+//		New array of StockPERatio.
+		StockPERatio per[] = new StockPERatio[stocks.length];
+		
+//		Give every index in per to the value of a StockPERatio object, and call its constructor and pass in the stockName and peRatio.
+		for (int i = 0; i < per.length; i++) {	
+			per[i] = new StockPERatio(stocks[i].stockName, stocks[i].peRatio);
+		}
+		
+//		For every index of per, grab the name and the peRatio. To obtain two decimal places, floor() the value of peRatio 
+		for (int i = 0; i < per.length; i++) {
+			System.out.println(per[i].name + " | " + Math.floor(per[i].peRatio * 100) / 100);
+		}
+		
+		
+		
+	}
+}

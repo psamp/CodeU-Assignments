@@ -1,0 +1,11 @@
+package com.psamp.stocks;
+
+class StockClient {
+
+	public static void main(String[] args) {
+		
+		Stock[] stocks = Stock[5];
+
+	}
+
+}

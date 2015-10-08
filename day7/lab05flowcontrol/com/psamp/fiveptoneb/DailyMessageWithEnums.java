@@ -6,7 +6,7 @@ public class DailyMessageWithEnums {
 	public void getMessage(Scanner day) {
 		System.out.println("Enter day of week:" + "\n");
 		
-//		Save input.
+//		Create a new DaysOfWeek input object. Assign it to the value of the Scanner parameter entered by the user, uppercased. 
 		DaysOfWeek input = DaysOfWeek.valueOf(day.next().toUpperCase());
 		
 //		Sysouts.

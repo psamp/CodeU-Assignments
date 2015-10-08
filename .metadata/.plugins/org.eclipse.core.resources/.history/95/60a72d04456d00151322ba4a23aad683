@@ -1,0 +1,18 @@
+package com.psamp.stocks;
+
+class StockClient {
+
+	public static void main(String[] args) {
+		
+//		New array of Stocks class.
+		Stock[][] stocks = new Stock[5][3];
+		
+		for (int i = 0; i < stocks.length; i++) {
+			
+			System.out.print(stocks[i])[i];
+			
+		}
+
+	}
+
+}

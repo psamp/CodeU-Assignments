@@ -1,0 +1,29 @@
+package com.psamp.stocks;
+import java.util.Arrays;
+
+class StockClient {
+
+	public static void main(String[] args) {
+		
+//		New array of Stocks.
+		Stock stocks[] = {
+				new Stock("ABC", 20.01, 1.30),
+				new Stock("DEF", 30.11, .99),
+				new Stock("GHI", 30.11, 1.99),
+				new Stock ("JKL", 0.31, 1.19),
+				new Stock ("MNO", 23.55, 4.21)
+		};
+		
+		StockPERatio per[] = new StockPERatio[stocks.length];
+		
+		for (int i = 0; i < per.length; i++) {
+			
+			per[i] = new StockPERatio(stocks[i].stockName, stocks[i].peRatio);
+		}
+		
+		System.out.println(per[0].stockName + " | " + per[0].peRatio);
+		
+		
+		
+	}
+}

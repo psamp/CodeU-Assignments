@@ -1,0 +1,34 @@
+package com.psamp.stocks;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+class StockClient {
+
+	public static void main(String[] args) {
+		
+////		New array of Stocks class.
+//		String stocks[][] = {
+//				{"ABC", "20.01", "1.30"},
+//				{"DEF", "30.11", ".99"},
+//				{"GHI", "30.11", ".99"},
+//				{"JKL", "10.31", "1.19"},
+//				{"MNO", "23.55", "4.21"}
+//		};
+//		
+//		double peRatio[][] = new double[5][3];
+//		
+//		for (int i = 0; i < stocks.length; i++) {
+//			
+//			for (int j = 0; j < stocks[i].length; j++) {
+//				System.out.print(stocks[i][j] + " | ");
+//			}
+//			
+//			System.out.println("\n");
+//			
+//		}
+		
+		Stock stocks[][] = Stock[5][3];
+		
+	}
+}

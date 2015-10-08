@@ -1,0 +1,7 @@
+package com.psamp.stocks;
+
+class Stocks {
+	String stockName = "";
+	double stockPrice = 0;
+	double stockEarnings = 0;
+}
