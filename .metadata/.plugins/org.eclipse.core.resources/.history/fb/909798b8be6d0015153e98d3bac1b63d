@@ -1,0 +1,11 @@
+package com.psamp.average;
+
+class Average {
+
+	public static void main(String[] args) {
+		
+		String numbers = "";
+
+	}
+
+}

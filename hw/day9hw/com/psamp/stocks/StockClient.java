@@ -1,5 +1,4 @@
 package com.psamp.stocks;
-import java.util.Arrays;
 
 class StockClient {
 	
@@ -30,10 +29,9 @@ class StockClient {
 */		
 		for (int i = 0; i < per.length; i++) {
 			
-			System.out.println(per[i].name + " | " + Math.floor(per[i].peRatio * 100) / 100);
-		}
-		
-		
+				System.out.println(per[i].name + " | " + Math.floor(per[i].peRatio * 100) / 100);
+				
+		}	
 		
 	}
 }

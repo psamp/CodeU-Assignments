@@ -1,0 +1,11 @@
+package com.psamp.fivepttwo;
+import com.psamp.lab3pt4.Calculator;
+
+class CalulatorClient {
+
+	public static void main(String[] args) {
+		Calculator calc = new Calculator();
+
+	}
+
+}
