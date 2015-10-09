@@ -18,7 +18,7 @@ public class BadlandsSong {
 		System.out.println(this.title + " is "  + this.duration + " minutes.");
 	}
 	
-//	Get object's artist value and return it as a string.
+//	Get object's artist value, print a message, and return it as a string.
 	public String getArtist() {
 		System.out.println("The artist of this song is " + this.artist.toString() + ".");
 		return this.artist.toString();

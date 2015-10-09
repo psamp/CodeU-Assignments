@@ -38,19 +38,16 @@ public class Calculator {
 		
 	}
 	
-//	Return larger number.
-	public double firstLarger(double l, double m) {
+//	Return true if the first number passed in is larger than the second.
+	public boolean firstLarger(double l, double m) {
 		
-		double rtn = 0;
+		boolean tf = false;
 		
 		if (l > m) {
-			rtn = l;
-		} else if (m > l) {
-			
-			rtn = m;
+			tf = true;
 		}
 		
-		return rtn;
+		return tf;
 	
 	}
 	

@@ -81,11 +81,10 @@ public class CalculatorTest {
 	@Test
 	public void testFirstLarger() {
 		
-		double expected = 5;
-		double actual = calc.firstLarger(2, 5);
-		double delta = .001;
+		boolean expected = true;
+		boolean actual = calc.firstLarger(456, 85);
 		
-		assertEquals(expected, actual, delta);
+		assertEquals(expected, actual);
 	}
 
 	@Test
@@ -93,7 +92,7 @@ public class CalculatorTest {
 		
 		double arr[] = {10, 20, 30};
 		double expected = 60;
-		double actual = calc.sumArray(arr, "arr (sumAray)") ;
+		double actual = calc.sumArray(arr, "testSumArray") ;
 		double delta = .001;
 		
 		assertEquals(expected, actual, delta);
@@ -104,7 +103,7 @@ public class CalculatorTest {
 		
 		double arr[] = {10, 20, -30};
 		double expected = 0;
-		double actual = calc.sumArrayNegative(arr, "arr");
+		double actual = calc.sumArrayNegative(arr, "testSumArray");
 		double delta = .001;
 		
 		assertEquals(expected, actual, delta);
