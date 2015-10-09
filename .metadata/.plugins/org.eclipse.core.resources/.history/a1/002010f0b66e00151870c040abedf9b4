@@ -1,0 +1,91 @@
+package com.psamp.util;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	@Test
+	public void testAddThese() {
+		Calculator calc = new Calculator();
+		
+		double expected = 10;
+		double actual = calc.addThese(5, 5);
+		double delta = .001;
+		
+		calc.addThese(5, 5);
+		assertEquals(expected, actual, delta);
+	}
+
+	@Test
+	public void testSubtractThese() {
+		Calculator calc = new Calculator();
+		
+		double expected = 0;
+		double actual = calc.subtractThese(5, 5);
+		double delta = .001;
+		
+		assertEquals(expected, actual, delta);
+		
+	}
+
+	@Test
+	public void testMultiplyThese() {
+		Calculator calc = new Calculator();
+		
+		double expected = 0;
+		double actual = calc.multiplyThese(2, 5);
+		double delta = .001;
+		
+		assertEquals(expected, actual, delta);
+	}
+
+	@Test
+	public void testDivideThese() {
+		Calculator calc = new Calculator();
+		
+		double expected = 3.33;
+		double actual = calc.multiplyThese(2, 5);
+		double delta = .001;
+		
+		assertEquals(expected, actual , delta);
+	}
+
+	@Test
+	public void testDivideTheseIntegers() {
+		Calculator calc = new Calculator();
+		
+		assertEquals(5, calc.divideTheseIntegers(10, 2) ,.100);
+	}
+
+	@Test
+	public void testGetLength() {
+		Calculator calc = new Calculator();
+		
+		assertEquals(5, calc.getLength("lorem ipsum dolor si amet"), .001);
+	}
+
+	@Test
+	public void testFirstLarger() {
+		Calculator calc = new Calculator();
+		
+		assertTrue(true, calc.firstLarger(2, 5));
+	}
+
+	@Test
+	public void testSumArray() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSumArrayNegative() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCountValues() {
+		fail("Not yet implemented");
+	}
+
+}

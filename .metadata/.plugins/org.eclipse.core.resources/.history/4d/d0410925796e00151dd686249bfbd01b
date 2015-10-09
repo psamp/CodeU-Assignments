@@ -1,0 +1,7 @@
+package com.psamp.badlands;
+
+public class BadlandsSong {
+	BadlandsTracklist title;
+	double length;
+	String artist = "Halsey;"
+}

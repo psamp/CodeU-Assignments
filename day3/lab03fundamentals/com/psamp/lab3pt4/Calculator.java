@@ -38,21 +38,23 @@ public class Calculator {
 		
 	}
 	
-//	Based on whether the first param is larger than the second, return a boolean.
-	public boolean firstLarger(double l, double m) {
-		boolean tf = false;
+//	Return larger number.
+	public double firstLarger(double l, double m) {
+		
+		double rtn = 0;
 		
 		if (l > m) {
-			tf = true;
-		} else {
-			tf = false;
+			rtn = l;
+		} else if (m > l) {
+			
+			rtn = m;
 		}
 		
-		return tf;
+		return rtn;
 	
 	}
 	
-//	Add together array of numbers.
+//	Sum the contents of an array of postive numbers.
 	public double sumArray(double[] arr, String name) {
 		double sum = 0;
 		
@@ -66,6 +68,36 @@ public class Calculator {
 		System.out.println("The sum of " + name + " is " + sum + ".");
 		
 		return sum;
+	}
+	
+//	Sum the contents of an array of positive and negative numbers.
+	public double sumArrayNegative(double[] arr, String name) {
+		double sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+				sum += arr[i];
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+//	Find multiple instances of a number.
+	public double countValues(double[] arr, double num) {
+		
+		double found = 0;
+		
+		for (int i = 0; (i < arr.length) & (found <= 5); i++) {
+			if (arr[i] == num) {
+				found++;
+			}
+		}
+		
+		System.out.println("Found " + found + " instances of: " + num );
+		return found;
+		
 	}
 	
 }

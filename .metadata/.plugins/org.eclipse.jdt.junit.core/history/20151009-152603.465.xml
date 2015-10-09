@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest" project="day9" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="com.psamp.util.CalculatorTest" time="0.001">
+    <testcase name="testDivideThese" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testFirstLarger" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSumArray" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testAddThese" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testDivideTheseIntegers" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testGetLength" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testCountValues" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testMultiplyThese" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSubtractThese" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSumArrayNegative" classname="com.psamp.util.CalculatorTest" time="0.001"/>
+  </testsuite>
+</testrun>

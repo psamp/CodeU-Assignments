@@ -1,8 +1,0 @@
-package com.psamp.oranges;
-
-public class Oranges {
-
-	public static void main(String [] args) {
-		
-	}
-}

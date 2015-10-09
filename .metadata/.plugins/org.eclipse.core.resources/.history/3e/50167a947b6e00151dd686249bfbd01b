@@ -1,0 +1,26 @@
+package com.psamp.badlands;
+
+public class BadlandsSong {
+	BadlandsTracklist title;
+	double duration;
+	Halsey artist = Halsey.HALSEY;
+	int played = 0;
+	
+	BadlandsSong(String name, double length) {
+		this.title = BadlandsTracklist.valueOf(name.toUpperCase().trim());
+		this. duration = length;
+	}
+	
+	void printInfo() {
+		System.out.println(this.title + " is "  + duration + ". minutes.");
+	}
+	
+	String getArtist() {
+		return this.artist.toString();
+	} 
+	
+	void playSong() {
+		this.played += 1;
+	} 
+	
+}

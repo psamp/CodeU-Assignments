@@ -1,0 +1,5 @@
+package com.psamp.badlands;
+
+public enum BadlandsTracklist {
+	CASTLE, HOLD ME DOWN, NEW AMERICANA, DRIVE, ROMAN HOLIDAY, COLORS, COMING DOWN, HAUNTING, CONTROL, YOUNG GOD, GHOST
+}

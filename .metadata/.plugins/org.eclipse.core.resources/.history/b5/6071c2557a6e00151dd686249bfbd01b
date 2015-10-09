@@ -1,0 +1,13 @@
+package com.psamp.badlands;
+
+public class BadlandsClient {
+
+	public static void main(String[] args) {
+		
+		BadlandsSong colors = new BadlandsSong("Colors", 4.09);
+		
+		colors.getInfo();
+
+	}
+
+}
