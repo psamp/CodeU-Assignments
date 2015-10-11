@@ -10,7 +10,7 @@ public class AccountTests {
 	Account account;
 	
 	@Before public void beforeTests() {
-		account = new Account("Lorem Ipsum", 3000);
+		account = new Account("Lorem Ipsum", 1, 3000);
 	}
 
 	@Test
@@ -62,6 +62,14 @@ public class AccountTests {
 	public void testCanPayHouseMortgage() {
 		boolean expected = true;
 		boolean actual = account.canPayHouseMortgage();
+		
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testGetAccountID() {
+		int expected = 1;
+		int actual = account.getAccountID();
 		
 		assertEquals(expected, actual);
 	}

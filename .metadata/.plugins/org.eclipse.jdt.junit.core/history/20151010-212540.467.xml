@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AccountTests" project="hwday11" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="com.psamp.account.AccountTests" time="0.0">
+    <testcase name="testGetAccountID" classname="com.psamp.account.AccountTests" time="0.0"/>
+    <testcase name="testCheckIfAccountIsInTheNegative" classname="com.psamp.account.AccountTests" time="0.0"/>
+    <testcase name="testGetBalance" classname="com.psamp.account.AccountTests" time="0.0"/>
+    <testcase name="testWithdrawMoney" classname="com.psamp.account.AccountTests" time="0.0"/>
+    <testcase name="testCanPayHouseMortgage" classname="com.psamp.account.AccountTests" time="0.0"/>
+    <testcase name="testDepositMoney" classname="com.psamp.account.AccountTests" time="0.0"/>
+    <testcase name="testPayTaxes" classname="com.psamp.account.AccountTests" time="0.0"/>
+  </testsuite>
+</testrun>
