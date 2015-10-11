@@ -9,6 +9,8 @@ public class AccountTests {
 	
 	Account account;
 	
+//	Note that this object will be created before every single test. The effects of methods called inside each test won't carry over.
+	
 	@Before public void beforeTests() {
 		account = new Account("Lorem Ipsum", 1, 3000);
 	}
@@ -72,6 +74,32 @@ public class AccountTests {
 		int actual = account.getAccountID();
 		
 		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testUpdateName() {
+		String expected = "Lorem Ipsum-Dolor";
+		String actual = account.updateName("Lorem Ipsum-Dolor");
+		
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testSaveMoney() {
+		double expected = 30;
+		double actual = account.saveMoney(30);
+		double delta = .001;;
+		
+		assertEquals(expected, actual, delta);
+	}
+	
+	@Test
+	public void testGetSavings() {
+		double expected = 0;
+		double actual = account.getSavings();
+		double delta = .001;
+		
+		assertEquals(expected, actual, delta);
 	}
 
 }

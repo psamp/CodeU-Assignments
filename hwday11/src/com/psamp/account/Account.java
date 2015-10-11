@@ -4,6 +4,7 @@ public class Account {
 	String name;
 	int id;
 	double balance;
+	double savings;
 	boolean isNegative;
 	
 	Account(String n, int i, double b) {
@@ -69,6 +70,23 @@ public class Account {
 	
 	public int getAccountID() {
 		return this.id;
+	}
+	
+	public String updateName(String newName) {
+		this.name = newName;
+		
+		return this.name;
+	}
+	
+	public double saveMoney(double sve) {
+		this.balance = this.balance - sve;
+		this.savings = sve;
+		
+		return this.savings;
+	}
+	
+	public double getSavings() {
+		return this.savings;
 	}
 
 }
