@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="com.psamp.lab3pt3.Event"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="com.psamp.lab3pt4.Calculator"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
 </qualifiedTypeNameHistroy>

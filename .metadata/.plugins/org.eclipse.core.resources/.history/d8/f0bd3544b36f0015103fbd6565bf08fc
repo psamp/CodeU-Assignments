@@ -1,0 +1,13 @@
+package com.psamp.account;
+
+public class Account {
+	String name;
+	double balance;
+	boolean isNegative;
+	
+	Account(String nme, double blnc) {
+		this.name = name; 
+		this.balance = blnc;
+	}
+
+}

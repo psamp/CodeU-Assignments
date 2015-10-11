@@ -1,0 +1,25 @@
+package com.psamp.account;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class AccountTests {
+	
+	Account account;
+	
+	@Before public void beforeTests() {
+		account = new Account(500, "Lorem Ipsum");
+	}
+
+	@Test
+	public void testGetBalance() {
+		double expected = 500;
+		double actual = account.getBalance();
+		double delta = .001;
+		
+		assertEquals(expected, actual, delta);
+	}
+
+}
