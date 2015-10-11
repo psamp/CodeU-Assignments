@@ -1,0 +1,34 @@
+package com.psamp.badlands;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BadlandsSongTests {
+
+	@Test
+	public void testBadlandsSong() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPrintInfo() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetArtist() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPlaySong() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testLikeSong() {
+		fail("Not yet implemented");
+	}
+
+}
