@@ -1,9 +1,34 @@
 package com.psamp.util;
 
+import java.util.Scanner;
+
 public class Suri {
 	
 	String usersName = "";
 	int usersAge = 0;
+	
+	public void startSuri() {
+		
+		Scanner scn = new Scanner(System.in);
+		
+		try {
+			
+			System.out.println("What is your name?" + "\n");
+			this.getName( scn.next() );
+			this.welcome();
+			
+			System.out.println("What is your age?");
+			this.getAge( scn.nextInt() );
+			System.out.println();
+			this.isUnderEighteen();
+			
+		} finally {
+			
+			scn.close();
+		
+		}
+		
+	}
 	
 //	Get user's name, save it to the object and then return it.
 	
@@ -25,7 +50,7 @@ public class Suri {
 //	Print out a welcome message with the user's name, and return it.
 	public String welcome() {
 		
-		String welcome = "Hello, " + usersName + ".";
+		String welcome = "\n" + "Hello, " + usersName + ".";
 		
 		System.out.println(welcome);
 		

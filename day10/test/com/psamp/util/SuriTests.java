@@ -1,7 +1,6 @@
 package com.psamp.util;
 
 import static org.junit.Assert.*;
-import java.util.Scanner;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -9,12 +8,10 @@ public class SuriTests {
 	
 //	Declare Suri and scanner objects.
 	static Suri suri;
-	static Scanner scn;
 	
-//	Once before every class, initialize the scanner and suri objects.
+//	Once before every class, initialize the suri object.
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		scn = new Scanner(System.in);
 		suri = new Suri();
 	}
 	
@@ -22,10 +19,8 @@ public class SuriTests {
 	@Test
 	public void testGetName() {
 		
-		System.out.println("What is your name?" + "\n");
-		
 		String expected = "Princess";
-		String actual = suri.getName( scn.next() );
+		String actual = suri.getName("Princess");
 		
 		assertEquals(expected, actual);
 		
@@ -62,6 +57,5 @@ public class SuriTests {
 		assertTrue(actual);
 		
 	}
-	
 
 }
