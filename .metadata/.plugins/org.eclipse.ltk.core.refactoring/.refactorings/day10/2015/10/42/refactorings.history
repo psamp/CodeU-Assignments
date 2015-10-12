@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.psamp.util.Suri&apos; to &apos;SuriTests&apos;&#x0A;- Original project: &apos;day10&apos;&#x0A;- Original element: &apos;com.psamp.util.Suri&apos;&#x0A;- Renamed element: &apos;com.psamp.util.SuriTests&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Suri&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/test&lt;com.psamp.util{Suri.java[Suri" matchStrategy="1" name="SuriTests" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1444659219690" textual="false" version="1.0"/>
+</session>

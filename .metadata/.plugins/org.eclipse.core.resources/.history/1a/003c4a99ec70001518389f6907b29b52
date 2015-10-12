@@ -1,0 +1,19 @@
+package com.psamp.util;
+
+import java.util.Scanner;
+
+public class Suri {
+	
+	public static String welcome(Scanner name) {
+		try {
+			System.out.println("Hello, " + name.next() + ".");
+			
+		} finally {
+			
+			name.close();
+		}
+		
+		return name.next().toString();
+	}
+
+}

@@ -11,7 +11,8 @@ public class AccountTests {
 	
 //	Note that this object will be created before every single test. The effects of methods called inside each test won't carry over.
 	
-	@Before public void beforeTests() {
+	@Before 
+	public void beforeTests() {
 		account = new Account("Lorem Ipsum", 1, 3000);
 	}
 

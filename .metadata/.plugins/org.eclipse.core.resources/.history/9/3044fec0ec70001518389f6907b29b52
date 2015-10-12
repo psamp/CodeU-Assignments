@@ -1,0 +1,21 @@
+package com.psamp.util;
+
+import static org.junit.Assert.*;
+
+import java.util.Scanner;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class SuriTests {
+	
+	Scanner scn = new Scanner(System.in);
+
+	@Test
+	public void testWelcome() {
+		String name = Suri.welcome(scn);
+		
+		assertEquals();
+	}
+
+}

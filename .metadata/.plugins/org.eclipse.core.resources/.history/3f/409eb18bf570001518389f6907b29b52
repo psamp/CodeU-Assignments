@@ -1,0 +1,50 @@
+package com.psamp.util;
+
+public class Suri {
+	
+	String usersName = "";
+	int usersAge = 0;
+	
+//	Get user's name, save it to the object and then return it.
+	
+	public String getName(String input) {
+		System.out.println("What is your name?");
+		this.usersName = input;
+		return this.usersName;
+	}
+	
+//	Get user's age, save it to the object and then return it.
+	public int getAge(int input) {
+		System.out.println("What is your age?");
+		this.usersAge = input;
+		return this.usersAge;
+	}
+	
+//	Print out a welcome message with the user's name, and return it.
+	public String welcome() {
+		
+		String welcome = "Hello, " + usersName + ".";
+		
+		System.out.println(welcome);
+		
+		return welcome;
+		
+	}
+	
+//	Check if user is over 18 and return a message.
+	public String checkAge() {
+		String msg = "";
+		
+		if(this.usersAge < 18) {
+			msg = "Too young.";
+			System.out.println(msg);
+		} else {
+			msg = "Old enough.";
+			System.out.println(msg);
+		}
+		
+		return msg;
+		
+	}
+
+}

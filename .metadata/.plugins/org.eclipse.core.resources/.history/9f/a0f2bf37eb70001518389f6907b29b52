@@ -1,0 +1,12 @@
+package com.psamp.util;
+
+import java.util.Scanner;
+
+public class Suri {
+	
+	public String weclome(Scanner name) {
+		System.out.println("Hello, " + name + ".");
+		
+	}
+
+}

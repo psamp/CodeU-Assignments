@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SuriTests" project="day10" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.psamp.util.SuriTests" time="3.899">
+    <testcase name="testGetName" classname="com.psamp.util.SuriTests" time="3.897"/>
+    <testcase name="testWelcome" classname="com.psamp.util.SuriTests" time="0.001"/>
+  </testsuite>
+</testrun>

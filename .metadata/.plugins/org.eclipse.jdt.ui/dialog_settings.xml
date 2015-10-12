@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="/Users/psampson/Desktop" key="org.eclipse.jdt.ui.lastextjar"/>
-	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
@@ -20,8 +20,8 @@
 	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
 		<item value="596" key="DIALOG_WIDTH"/>
 		<item value="157" key="DIALOG_Y_ORIGIN"/>
-		<item value="290" key="DIALOG_HEIGHT"/>
 		<item value="57" key="DIALOG_X_ORIGIN"/>
+		<item value="290" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="NewPackageWizardPage">
@@ -33,8 +33,8 @@
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="-35" key="DIALOG_Y_ORIGIN"/>
-			<item value="-38" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-38" key="DIALOG_X_ORIGIN"/>
 			<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -49,10 +49,12 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="false" key="renameSubpackages"/>
-		<item value="true" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
+		<item value="true" key="updateQualifiedNames"/>
+		<item value="false" key="renameSubpackages"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 		<item value="false" key="updateSimilarElements"/>
@@ -60,7 +62,5 @@
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
 		<item value="false" key="create_unimplemented"/>
-	</section>
-	<section name="RenameInformationPopup">
 	</section>
 </section>

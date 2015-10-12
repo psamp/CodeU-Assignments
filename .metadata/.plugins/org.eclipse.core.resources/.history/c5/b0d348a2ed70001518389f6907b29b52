@@ -1,0 +1,24 @@
+package com.psamp.util;
+
+import java.util.Scanner;
+
+public class Suri {
+	
+	String usersName = "";
+	
+	public void getName(Scanner scn) {
+		System.out.println("What is your name?" + "\n");
+//		Get user's name from scanner input, then close scanner.
+		this.usersName = scn.next().toString();
+		scn.close();
+	}
+	
+	public String welcome() {
+		
+//		Print out a welcome message, and return it.
+		System.out.println("Hello, " + gotName + ".");
+		return "Hello, " + gotName + ".";
+		
+	}
+
+}
