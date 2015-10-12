@@ -47,9 +47,7 @@ public class Suri {
 			underEighteen = false;
 		
 		}
-		
 		System.out.println("Under 18: " + underEighteen);
-		
 		return underEighteen;
 		
 	}
