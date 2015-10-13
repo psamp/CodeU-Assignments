@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Suri {
 	
-	String usersName = "";
-	int usersAge = 0;
+	private String usersName = "";
+	private int usersAge = 0;
 	
 	public void startSuri() {
 		
@@ -50,7 +50,7 @@ public class Suri {
 //	Print out a welcome message with the user's name, and return it.
 	public String welcome() {
 		
-		String welcome = "\n" + "Hello, " + usersName + ".";
+		String welcome = "Hello, " + usersName + ".";
 		
 		System.out.println(welcome);
 		

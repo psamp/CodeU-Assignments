@@ -1,0 +1,31 @@
+package hwday12;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class PassByTest {
+	
+	@Before
+	public void beforeTests() {
+		PassBy pb = new PassBy();
+	}
+
+	@Test
+	public void testAddTenVal() {
+		int five = 5;
+		pb.addTenVal(five);
+		
+		assertTrue(five == 5);
+	}
+	
+	@Test
+	public void testAddTenRef() {
+		int five = 5;
+		pb.addTenVal(five);
+		
+		assertTrue(five == 5);
+	}
+
+}

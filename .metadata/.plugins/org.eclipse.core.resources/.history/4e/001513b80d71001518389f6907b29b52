@@ -1,0 +1,21 @@
+package com.psamp.lifecycletest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class JUnitLifeCycleTestLoop {
+
+	@Test
+	public void test() {
+		String arr[] = {"A", "B", "C"};
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			JUnitLifecycleTest ju = new JUnitLifecycleTest();
+			
+			ju.test[i]();
+		}
+	}
+
+}

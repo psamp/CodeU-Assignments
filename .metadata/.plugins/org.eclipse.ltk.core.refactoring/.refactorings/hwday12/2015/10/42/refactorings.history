@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hwday12&apos; to &apos;com.psamp.util&apos;&#x0A;- Original project: &apos;hwday12&apos;&#x0A;- Original element: &apos;hwday12/test/hwday12&apos;&#x0A;- Renamed element: &apos;hwday12/test/com.psamp.util&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hwday12&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/test&lt;hwday12" name="com.psamp.util" patterns="*" qualified="true" references="true" stamp="1444724012137" textual="false" version="1.0"/>
+</session>
