@@ -1,0 +1,38 @@
+package com.psamp.rental;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HotelRoomTests {
+	
+	HotelRoom roomOne;
+	HotelRoom roomTwo;
+	
+	@Before
+	public void beforeTests() {
+		roomOne = new HotelRoom(15, false);
+		roomOne = new HotelRoom(93, true);
+	}
+
+	@Test
+	public void testGetRoomNumber() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetRoomNumber() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetSmoking() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetSmoking() {
+		fail("Not yet implemented");
+	}
+
+}

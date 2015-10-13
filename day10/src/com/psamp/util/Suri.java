@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Suri {
 	
-	private String usersName = "";
-	private int usersAge = 0;
+	private String usersName;
+	private int usersAge;
 	
 	public void startSuri() {
 		

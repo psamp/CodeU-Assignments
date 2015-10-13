@@ -1,0 +1,30 @@
+package com.psamp.rental;
+
+public class RentalCar {
+	Long id;
+	String make;
+	String model;
+	
+	RentalCar(String make, String model) {
+		this.make = make;
+		this.model = model;
+		this.id = Math.random.nextLong(0;)
+	}
+	
+	String getMake() {
+		return this.make;
+	}
+	
+	void setMake(String make) {
+		this.make = make;
+	}
+	
+	String getModel() {
+		return this.model;
+	}
+	
+	void setModel(String model) {
+		this.model = model;
+	}
+
+}

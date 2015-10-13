@@ -1,0 +1,13 @@
+package com.psamp.rental;
+
+public class HotelRoomTests {
+	
+	HotelRoom roomOne;
+	HotelRoom roomTwo;
+	
+	@Before public void() {
+		
+	}
+	
+
+}

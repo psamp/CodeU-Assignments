@@ -1,0 +1,47 @@
+package com.psamp.rental;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class RentalCarTests {
+	RentalCar firstCar;
+	RentalCar secondCar;
+	
+	@Before
+	public void beforeTests() {
+		firstCar = new RentalCar("Chevy", "Impala");
+		secondCar = new RentalCar("GMC", "Yukon");
+	}
+
+	@Test
+	public void testGetMake() {
+		
+		String expectedMakeForFirstCar = "Chevy";
+		String actualMakeForFirstCar = firstCar.getMake();
+		
+		String expectedMakeForSecondCar = "Yukon";
+		String actualMakeForSecondCar = secondCar.getMake();
+		
+		assertEquals(expectedMakeForFirstCar, actualMakeForFirstCar);
+		assertEquals(expectedMakeSecondCar, actualMakeForSecondCar);
+		
+	}
+
+	@Test
+	public void testSetMake() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetModel() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetModel() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.psamp.rental;
+
+public class RentalCarTest {
+	Long id;
+	String make;
+	String model;
+
+}

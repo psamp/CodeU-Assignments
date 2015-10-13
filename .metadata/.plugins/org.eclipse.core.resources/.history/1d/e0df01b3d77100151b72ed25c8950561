@@ -1,0 +1,19 @@
+package com.psamp.rental;
+
+public class HotelRoom {
+	private int roomNumber;
+	private boolean smoking;
+	
+	HotelRoom(int roomNumber, boolean smoking) {
+		this.roomNumber = roomNumber;
+		this.smoking = smoking;
+	}
+	
+	public int getRoomNumber() {
+		return this.roomNumber;
+	}
+	
+	public boolean getSmoking() {
+		return this.smoking;
+	}
+}

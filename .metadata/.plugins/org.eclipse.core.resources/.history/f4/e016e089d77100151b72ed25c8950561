@@ -1,0 +1,7 @@
+package com.psamp.rental;
+
+public class HotelRoom {
+	int roomNumber;
+	boolean smoking;
+
+}
