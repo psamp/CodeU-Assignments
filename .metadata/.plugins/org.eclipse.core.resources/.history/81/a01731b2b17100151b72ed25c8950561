@@ -1,0 +1,28 @@
+package com.psamp.average;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class AverageTests {
+	
+	Average avg;
+	
+	@Before
+	public void beforeTests() {
+		avg = new Average();
+	}
+
+	@Test
+	public void testAverageScores() {
+		String[] arr = {"10", "20", "30", "40"};
+		
+		double expected = 10;
+		double actual = avg.averageScores(arr);
+		double delta = .001;
+		
+		assertEquals(expected, actual, delta);
+	}
+
+}

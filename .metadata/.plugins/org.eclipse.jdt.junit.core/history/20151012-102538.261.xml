@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SuriTests" project="day10" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.psamp.util.SuriTests" time="5.735">
-    <testcase name="testWelcome" classname="com.psamp.util.SuriTests" time="5.735"/>
-  </testsuite>
-</testrun>

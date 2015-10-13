@@ -1,0 +1,14 @@
+package com.psamp.average;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AverageTests {
+
+	@Test
+	public void testAverageScores() {
+		fail("Not yet implemented");
+	}
+
+}

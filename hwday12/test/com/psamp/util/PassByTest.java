@@ -16,7 +16,7 @@ public class PassByTest {
 	}
 
 /*	
- *	Take a number and pass it into addTenVal, which adds ten to the value and returns it.
+ *	Take a number and pass it into addTenVal, which adds ten to its value and returns it.
  *	Assert that five is still equal to 5, as only its value and not its reference was passed.
  */
 	@Test
@@ -43,5 +43,4 @@ public class PassByTest {
 		assertTrue(objFive.a == 15);
 		assertTrue(objFive.b == 15);
 	}
-
 }

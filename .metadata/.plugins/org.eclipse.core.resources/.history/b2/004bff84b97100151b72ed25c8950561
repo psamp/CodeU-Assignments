@@ -1,0 +1,59 @@
+package com.psamp.average;
+
+import java.util.Arrays;
+
+class Average {
+	
+//	This method should take in an array of strings, parse each number to a double, and average them. Return the average.
+	
+	public double[] parseArray(String[] nums) {
+		
+		double[] dbls;
+		
+		dbls  = new double[nums.length];
+		
+		for (int i = 0; i < dbls.length; i++) {
+			
+			double parsed = Double.parseDouble(nums[i]);
+			dbls[i] = parsed;
+		}
+		
+		return dbls;
+	}
+	
+	public double averageScores(String nums[]) {
+		double avg = 0;
+		double[] parsed;
+		
+		parsed = parseArray(nums);
+		
+		for (int i = 0; i < nums.length; i++) {
+			avg += Double.parseDouble(nums[i]) / nums.length;
+		}
+		
+		return avg;
+	}
+	
+	public double lowestScore(String nums[]) {
+		double largest = 0;
+		
+		Arrays.sort(nums);
+		
+		for (int i = 0; i < 1; i++) {
+			largest = Double.parseDouble(nums[i]);
+		}
+		
+		return largest;
+	}
+	
+	public double highestScore(String nums[]) {
+		double highest = 0;
+		
+		Arrays.sort(nums);
+		
+		highest = Double.parseDouble(nums[nums.length - 1]);
+		
+		return highest;
+	}
+
+}

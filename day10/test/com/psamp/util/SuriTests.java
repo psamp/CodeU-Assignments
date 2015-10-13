@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class SuriTests {
 	
-//	Declare Suri and scanner objects.
+//	Declare Suri object.
 	static Suri suri;
 	
 //	Once before every class, initialize the suri object.
@@ -15,7 +15,7 @@ public class SuriTests {
 		suri = new Suri();
 	}
 	
-//	Expect the "Princess". Call getName and pass in the scanner input as a string.
+//	Expect the "Princess". Call getName and pass in "Princess".
 	@Test
 	public void testGetName() {
 		

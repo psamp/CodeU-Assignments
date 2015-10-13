@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Average.java&apos; to &apos;day11-pairprogramming7/src/com.psamp.average&apos;&#x0A;- Original project: &apos;day8&apos;&#x0A;- Destination element: &apos;day11-pairprogramming7/src/com.psamp.average&apos;&#x0A;- Original element: &apos;com.psamp.average.Average.java&apos;" description="Copy compilation unit" destination="=day11-pairprogramming7/src&lt;com.psamp.average" element1="/src&lt;com.psamp.average{Average.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1444743808981" units="1" version="1.0"/>
+</session>
