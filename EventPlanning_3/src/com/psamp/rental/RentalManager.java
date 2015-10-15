@@ -66,12 +66,12 @@ class RentalManager {
 		return rentals;
 	}
 	
-	public static void main(String[] args) {
-		
-		RentalManager manager = new RentalManager();
-		System.out.println(manager.getCars());
-		System.out.println(manager.getRooms());
-		
+	public RentalCar[] getCarArray() {
+		return RentalManager.cars;
+	}
+	
+	public HotelRoom[] getRoomArray() {
+		return RentalManager.rooms;
 	}
 	
 }
