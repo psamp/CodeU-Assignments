@@ -7,7 +7,7 @@ class HotelRoom {
 	private boolean smoking;
 	private int beds;
 	
-//	Overload constructor, so beds can be 1 by default, and 1 or 2 if specified.
+//	Overload constructor, so beds can either be 1 by default, or 1 or 2 if specified.
 	
 	HotelRoom(int roomNumber, boolean smoking) {
 		
@@ -33,62 +33,53 @@ class HotelRoom {
 	
 	}
 	
-	public int getRoomNumber() {
+//	Return object info as a string.
+	public String toString() {
 		
-		return this.roomNumber;
+		int rn = this.getRoomNumber();
+		boolean smk = this.getSmoking();
+		int beds = this.getBeds();
+		
+		String info = "";
+		
+		if(smk == true) {
+			
+			info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is allowed.";
+			
+		} else {
+			
+			info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is NOT allowed.";
+			
+		}
+		
+		return info;
+		
+	}
 	
+//	Getters and setters.
+	public int getRoomNumber() {
+		return this.roomNumber;
 	}
 	
 	public boolean getSmoking() {
-		
-		return this.smoking;
-		
+		return this.smoking;	
 	}
 	
 	public int getBeds() {
-		
 		return this.beds;
-		
 	}
 	
 	public void setRoomNumber(int roomNumber) {
-		
 		this.roomNumber = roomNumber;
-		
 	}
 	
-	public boolean setSmoking(boolean smoking) {
-	
+	public void setSmoking(boolean smoking) {
 		this.smoking = smoking;
-		return this.smoking;
-	
 	}
 
 	public void setBeds(int beds) {
 		this.beds = beds;
 	}
-	
-	public String toString() {
-			
-			int rn = this.getRoomNumber();
-			boolean smk = this.getSmoking();
-			int beds = this.getBeds();
-			
-			String info = "";
-			
-			if(smk == true) {
-				
-				info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is allowed.";
-				
-			} else {
-				
-				info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is NOT allowed.";
-				
-			}
-			
-			return info;
-			
-		}
 
 	
 }
