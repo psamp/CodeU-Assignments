@@ -1,0 +1,31 @@
+package com.psamp.rental;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class RentalManagerTests {
+	
+	RentalManager manager;
+//	
+//	@Before
+//	public void beforeTests() {
+		manager = new RentalManager();
+//	}
+//
+//	@Test
+//	public void testGetCars() {
+//		System.out.println(manager.getCars());
+//	}
+//
+//	@Test
+//	public void testGetRooms() {
+//		fail("Not yet implemented");
+//	}
+	
+	public static void main(String[] args) {
+		System.out.println(manager.getCars());
+	}
+
+}

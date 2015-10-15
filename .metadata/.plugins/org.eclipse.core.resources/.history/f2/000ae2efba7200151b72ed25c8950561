@@ -1,0 +1,54 @@
+package com.psamp.rental;
+
+class RentalManager {
+	
+	private static RentalCar[] cars;
+	private static HotelRoom[] rooms;
+	
+	public String getCars() {
+			String car = "";
+		
+		for (int i = 0; i < cars.length; i++) {
+			String make = cars[i].getMake();
+			String model = cars[i].getModel();
+			long ID = cars[i].getID();
+			car += make + " " + model + " | " + ID;
+		}
+		return car;
+		
+	}
+	
+	
+	public String getRooms() {
+		String roomList = "";
+	
+	for (int i = 0; i < rooms.length; i++) {
+		String make = rooms[i].getMake();
+		String model = rooms[i].getModel();
+		long ID = rooms[i].getID();
+		roomList += make + " " + model + " | " + ID;
+	}
+	return roomList;
+	
+}
+	
+	
+//	Initialize object.
+	static {
+		
+//		Initialize cars instance variable.
+		cars[0] = new RentalCar("Toyota", "Matrix", 1);
+		cars[1] = new RentalCar("Honda", "Civic", 2 );
+		cars[2]	= new RentalCar("Nissan", "Quest", 3);
+		cars[3] = new RentalCar("Ford", "Explorer", 4);
+		cars[4] = new RentalCar("Mazda", "Mazda3", 5);
+		
+//		Initialize rooms instance variable.
+		rooms[0] = new HotelRoom(16, true);
+		rooms[1] = new HotelRoom(12, false);
+		rooms[3] = new HotelRoom(4, true);
+		rooms[4] = new HotelRoom(42, false);
+		
+	}
+	
+}

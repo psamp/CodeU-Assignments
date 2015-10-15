@@ -5,47 +5,80 @@ public class RentalCar {
 	private Long ID;
 	private String make;
 	private String model;
+	private int year;
 	
+//	Overload constructor, so year can be 1 by default, and 1 or 2 if specified.
 	RentalCar(String make, String model, long id) {
 		
-		this.make = make;
-		this.model = model;
-		this.ID = id;
+		this.setMake(make);
+		this.setModel(model);
+		this.setID(id);
+		this.setYear(2009);
 	
 	}
 	
-	String getMake() {
+	RentalCar(String make, String model, long id, int year) {
+		
+		this.setMake(make);
+		this.setModel(model);
+		this.setID(id);
+		this.setYear(year);
+	
+	}
+	
+	public String getMake() {
 	
 		return this.make;
 	
 	}
 	
-	String getModel() {
+	public String getModel() {
 	
 		return this.model;
 	
 	}
 	
-	Long getID() {
+	public Long getID() {
 	
 		return this.ID;
 	
 	}
 	
-	void setMake(String make) {
+	public int getYear() {
+		return this.year;
+	}
+	
+	public void setMake(String make) {
 	
 		this.make = make;
 	
 	}
 	
-	void setModel(String model) {
+	public void setModel(String model) {
 	
 		this.model = model;
 	
 	}
 	
-	void setID(int num) {
-		this.ID = (long)(num);
+	public void setID(long id) {
+		this.ID = id;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+	public String toString() {
+		
+		String make = this.getMake();
+		String model = this.getModel();
+		long ID = this.getID();
+		int year = this.getYear();
+		
+		String strng = year + " " + make + " " + model + " has an ID of " + ID + ".";
+		
+		return strng;
+		
 	}
 
 }

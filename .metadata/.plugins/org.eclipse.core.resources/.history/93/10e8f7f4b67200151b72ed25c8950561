@@ -1,0 +1,27 @@
+package com.psamp.rental;
+
+class RentalManager {
+	
+	private static RentalCar[] cars;
+	private static HotelRoom[] rooms;
+	
+	static {
+		
+		cars = {
+				new RentalCar("Toyota", "Matrix", 1),
+				new RentalCar("Honda", "Civic", 2 ),
+				new RentalCar("Nissan", "Quest", 3),
+				new RentalCar("Ford", "Explorer", 4),
+				new RentalCar("Mazda", "Mazda3", 5)
+		};
+		
+		rooms = {
+				new HotelRoom[] (16, true),
+				new HotelRoom[] (12, false),
+				new HotelRoom[] (4, true),
+				new HotelRoom[] (42, false)
+		};
+		
+	}
+	
+}

@@ -6,7 +6,7 @@ class Average {
 
 	// This method should take in an array of strings and parse it into an array of doubles.
 
-	public double[] parseArray(String[] strings) {
+	double[] parseArray(String[] strings) {
 
 		double[] dbls;
 
@@ -21,7 +21,7 @@ class Average {
 		return dbls;
 	}
 
-	public double averageScores(String nums[]) {
+	double averageScores(String nums[]) {
 		double avg = 0;
 		double[] parsed = parseArray(nums);
 
@@ -32,7 +32,7 @@ class Average {
 		return avg;
 	}
 
-	public double lowestScore(String nums[]) {
+	double lowestScore(String nums[]) {
 		double largest = 0;
 
 		double[] parsed = parseArray(nums);
@@ -43,7 +43,7 @@ class Average {
 		return largest;
 	}
 
-	public double highestScore(String nums[]) {
+	double highestScore(String nums[]) {
 		double highest = 0;
 
 		double[] parsed = parseArray(nums);

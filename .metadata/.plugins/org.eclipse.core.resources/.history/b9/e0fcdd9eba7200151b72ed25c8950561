@@ -1,0 +1,14 @@
+package com.psamp.rental;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RentalManagerTests {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

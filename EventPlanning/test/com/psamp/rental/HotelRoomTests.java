@@ -61,11 +61,25 @@ public class HotelRoomTests {
 
 	@Test
 	public void testSetSmoking() {
+		
 		boolean setSmokingRoomOne = roomOne.setSmoking(true);
 		boolean setSmokingRoomTwo = roomTwo.setSmoking(false);
 		
 		assertTrue(setSmokingRoomOne);
 		assertFalse(setSmokingRoomTwo);
+		
+	}
+	
+	@Test
+	public void testToString() {
+		
+		String expected = "Room 15 has 1 bed(s) and smoking is NOT allowed.";
+		String actual = roomOne.toString();
+		
+		System.out.println(actual);
+		
+		assertEquals(expected, actual);
+		
 	}
 
 }

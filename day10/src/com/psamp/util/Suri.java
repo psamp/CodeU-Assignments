@@ -2,12 +2,12 @@ package com.psamp.util;
 
 import java.util.Scanner;
 
-public class Suri {
+class Suri {
 	
 	private String usersName;
 	private int usersAge;
 	
-	public void startSuri() {
+	void startSuri() {
 		
 		Scanner scn = new Scanner(System.in);
 		
@@ -32,7 +32,7 @@ public class Suri {
 	
 //	Get user's name, save it to the object and then return it.
 	
-	public String getName(String input) {
+	String getName(String input) {
 		
 		this.usersName = input;
 		return this.usersName;
@@ -40,7 +40,7 @@ public class Suri {
 	}
 	
 //	Get user's age, save it to the object and then return it.
-	public int getAge(int input) {
+	int getAge(int input) {
 		
 		this.usersAge = input;
 		return this.usersAge;
@@ -48,7 +48,7 @@ public class Suri {
 	}
 	
 //	Print out a welcome message with the user's name, and return it.
-	public String welcome() {
+	String welcome() {
 		
 		String welcome = "Hello, " + usersName + ".";
 		
@@ -59,7 +59,7 @@ public class Suri {
 	}
 	
 //	Check if user is under 18.
-	public boolean isUnderEighteen() {
+	boolean isUnderEighteen() {
 		
 		boolean underEighteen = false;
 		

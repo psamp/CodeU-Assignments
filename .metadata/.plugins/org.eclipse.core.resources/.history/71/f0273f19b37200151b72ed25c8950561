@@ -1,0 +1,10 @@
+package com.psamp.rental;
+
+class RentalManager {
+	
+	private RentalCar[] cars;
+	private HotelRoom[] rooms;
+	
+	private initializeRentals
+	
+}

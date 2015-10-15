@@ -108,5 +108,17 @@ public class RentalCarTests {
 		assertEquals(expectedIDForSecondCar, actualIDForSecondCar);
 		
 	}
+	
+	@Test
+	public void testToString() {
+		
+		String expected = "2009 Chevy Impala has an ID of 345.";
+		String actual = firstCar.toString();
+		
+		System.out.println(actual);
+		
+		assertEquals(expected, actual);
+		
+	}
 
 }

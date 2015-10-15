@@ -1,0 +1,16 @@
+package com.psamp.rental;
+
+class RentalManager {
+	
+	private RentalCar[] cars;
+	private HotelRoom[] rooms;
+	
+	private void init() {
+		
+		this.cars = {
+				new RentalCar(Toyota, Matrix, 5)
+		};
+		
+	}
+	
+}
