@@ -44,11 +44,11 @@ class HotelRoom {
 		
 		if(smk == true) {
 			
-			info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is allowed.";
+			info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is allowed. " + "\n";
 			
 		} else {
 			
-			info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is NOT allowed.";
+			info = "Room " + rn + " has " + beds + " bed(s) " + "and smoking is NOT allowed. " + "\n";
 			
 		}
 		

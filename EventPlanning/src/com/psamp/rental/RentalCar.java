@@ -2,10 +2,10 @@ package com.psamp.rental;
 
 public class RentalCar {
 	
-	private Long ID;
+	private long ID;
 	private String make;
 	private String model;
-	private int year;
+	private long year;
 	
 //	Overload constructor, so year can either be 1 by default, or 1 or 2 if specified.
 	RentalCar(String make, String model, long id) {
@@ -32,9 +32,9 @@ public class RentalCar {
 		String make = this.getMake();
 		String model = this.getModel();
 		long ID = this.getID();
-		int year = this.getYear();
+		long year = this.getYear();
 		
-		String strng = year + " " + make + " " + model + " has an ID of " + ID + ".";
+		String strng = year + " " + make + " " + model + " has an ID of " + ID + ". \n";
 		
 		return strng;
 		
@@ -53,7 +53,7 @@ public class RentalCar {
 		return this.ID;
 	}
 	
-	public int getYear() {
+	public long getYear() {
 		return this.year;
 	}
 	
