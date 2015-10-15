@@ -1,7 +1,0 @@
-
-class Methods {
-	
-	String[] na = NamesArray.getNames();
-	
-	
-}

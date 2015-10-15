@@ -1,0 +1,25 @@
+package com.psamp.rental;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class RentalCarTests {
+	
+	RentalCar firstCar = new RentalCar("Chevy", "Impala", 345, "Ahsoka", "Tano");
+	RentalCar secondCar = new RentalCar("GMC", "Yukon", 678, "Avatar", "Korra");
+	
+	@Test
+	public void testToString() {
+		
+		String expected = "2009 Chevy Impala has an ID of 345. Ahsoka Tano drives it." + "\n";
+		String actual = firstCar.toString();
+		
+		System.out.println(actual);
+		
+		assertEquals(expected, actual);
+		
+	}
+
+}

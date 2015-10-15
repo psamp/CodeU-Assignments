@@ -1,8 +1,0 @@
-package com.psamp.rental;
-
-class RentalManager {
-	
-	RentalCar[] cars;
-	HotelRoom[] = rooms;
-	
-}

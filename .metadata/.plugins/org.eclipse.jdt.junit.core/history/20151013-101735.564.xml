@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AverageTests" project="day11-pairprogramming7" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="com.psamp.average.AverageTests" time="0.0">
-    <testcase name="testAverageScoresWithWholeNumbers" classname="com.psamp.average.AverageTests" time="0.0"/>
-    <testcase name="testAverageScoresWithDecimals" classname="com.psamp.average.AverageTests" time="0.0"/>
-    <testcase name="testAverageScoresWithNegatives" classname="com.psamp.average.AverageTests" time="0.0"/>
-    <testcase name="testGetSmallestScoreWithNegatives" classname="com.psamp.average.AverageTests" time="0.0"/>
-    <testcase name="testGetSmallestScore" classname="com.psamp.average.AverageTests" time="0.0"/>
-  </testsuite>
-</testrun>

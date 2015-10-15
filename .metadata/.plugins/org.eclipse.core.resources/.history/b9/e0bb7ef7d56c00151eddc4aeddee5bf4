@@ -1,8 +1,0 @@
-package com.psamp.turtle;
-
-class Turtle {
-	int age;
-	
-	
-
-}

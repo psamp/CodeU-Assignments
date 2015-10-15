@@ -1,8 +1,0 @@
-package com.psamp.rental;
-
-public class RentalCar {
-	Long ID;
-	String make;
-	String model;
-
-}

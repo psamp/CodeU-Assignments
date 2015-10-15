@@ -1,8 +1,0 @@
-package com.psamp.waldo;
-
-class Methods {
-	
-	String[] na = NamesArray.getNames();
-	
-	
-}
