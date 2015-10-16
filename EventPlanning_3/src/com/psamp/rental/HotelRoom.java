@@ -8,7 +8,6 @@ class HotelRoom {
 	private int beds;
 	
 //	Overload constructor, so beds can either be 1 by default, or 1 or 2 if specified.
-	
 	HotelRoom(int roomNumber, boolean smoking) {
 		
 		this.setRoomNumber(roomNumber);
@@ -34,6 +33,7 @@ class HotelRoom {
 	}
 	
 //	Return object info as a string.
+	@Override
 	public String toString() {
 		
 		int rn = this.getRoomNumber();

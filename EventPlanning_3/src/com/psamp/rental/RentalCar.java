@@ -30,6 +30,7 @@ class RentalCar {
 	}
 	
 //	Return object info as a string.
+	@Override
 	public String toString() {
 		
 		String make = this.getMake();
@@ -59,6 +60,11 @@ class RentalCar {
 	
 	public long getYear() {
 		return this.year;
+	}
+	
+	public String getDriver() {
+		System.out.println(this.driver.toString());
+		return this.driver.toString();
 	}
 	
 	public void setMake(String make) {

@@ -19,6 +19,9 @@ public class RentalManagerTests {
 		int carLength = manager.getCarArray().length;
 		int roomLength = manager.getRoomArray().length;
 		
+		assertNotNull(manager.getCarArray());
+		assertNotNull(manager.getRoomArray());
+		
 		assertTrue(carLength >= 5);
 		assertTrue(roomLength >= 4);
 	}

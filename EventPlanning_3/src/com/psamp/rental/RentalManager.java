@@ -5,14 +5,12 @@ class RentalManager {
 	private static RentalCar[] cars;
 	private static HotelRoom[] rooms;
 	
-/*	
- *	(Code will work with constructor, and removal of static variables, but...
+/*	(Code will work with constructor, and removal of static variables, but...
  *	...every time we created an instance of HotelManager, we would get a new copy of our rentals.
  *	We want all our HotelManagers to share the same exact "database.")
  *	
  *	Initialize static "class" variables before an instance is even created.
  */
-	
 	static {
 		
 		cars = new RentalCar[5];

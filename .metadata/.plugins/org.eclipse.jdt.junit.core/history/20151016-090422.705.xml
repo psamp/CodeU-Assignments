@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HotelRoomTests" project="EventPlanning_3" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.psamp.rental.HotelRoomTests" time="0.0">
+    <testcase name="testNewObjects" classname="com.psamp.rental.HotelRoomTests" time="0.0"/>
+    <testcase name="testToString" classname="com.psamp.rental.HotelRoomTests" time="0.0"/>
+  </testsuite>
+</testrun>
