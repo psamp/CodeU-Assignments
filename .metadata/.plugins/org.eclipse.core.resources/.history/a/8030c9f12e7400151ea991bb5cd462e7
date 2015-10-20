@@ -1,0 +1,9 @@
+package com.psamp.util;
+
+class Kid {
+	
+	String cleanYourRoom() {
+		return "Ma'am";
+	}
+	
+}

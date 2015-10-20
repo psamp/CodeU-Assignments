@@ -1,0 +1,27 @@
+package com.psamp.util;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class HotelRoomTests {
+	
+	HotelRoom r1;
+	HotelRoom r2;
+	
+	@Before
+	public void setUp() {
+		r1 = new HotelRoom(15, 2, false);
+		r2 = new HotelRoom(93, true);
+	}
+
+	@Test
+	public final void testToString() {
+		String expected = "Room 15 has 2 beds. Smoking is not allowed.";
+		String actual = r1.toString();
+		
+		assertEquals(expected, actual);
+	}
+
+}

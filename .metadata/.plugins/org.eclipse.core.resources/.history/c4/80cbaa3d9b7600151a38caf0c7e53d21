@@ -1,0 +1,16 @@
+package com.psamp.util;
+
+public class RentalManager {
+	
+	private static HotelRoom[] rooms;
+	private static RentalCar[] cars;
+	
+	static {
+		RentalManager.rooms = new HotelRoom[4];
+		RentalManager.cars = new RentalCar[5];
+		
+		RentalManager.rooms[0] = new HotelRoom(15, 2, false);
+		
+	}
+
+}

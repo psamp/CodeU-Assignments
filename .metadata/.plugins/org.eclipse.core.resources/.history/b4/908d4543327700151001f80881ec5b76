@@ -1,0 +1,44 @@
+package com.psamp.util;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class RentalManagerTests {
+	
+	RentalManager rm;
+	
+	@Before
+	public void setUp() {
+		rm = new RentalManager();
+	}
+
+	@Test
+	public final void testDisplayAllHotelRooms() {
+		String expected = "Room 16 has 2 bed(s). Smoking is allowed. Room 12 has 1 bed(s). Smoking is not allowed. Room 4 has 1 bed(s). Smoking is allowed. Room 43 has 2 bed(s). Smoking is not allowed. ";
+		String actual = rm.displayAllHotelRooms();
+				
+		assertEquals(expected, actual);
+	}
+
+	@Test
+	public final void testDisplayAllRentalCars() {
+		String expected = "";
+		String actual = rm.displayAllRentalCars();
+		
+		System.out.println(actual);
+		assertEquals(expected, actual);
+	}
+
+	@Test
+	public final void testGetAmoutOfCars() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public final void testGetAmoutOfRooms() {
+		fail("Not yet implemented");
+	}
+
+}

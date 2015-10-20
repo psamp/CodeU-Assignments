@@ -8,7 +8,7 @@ class RentalCar {
 	private long year;
 	private Driver driver;
 	
-//	Overload constructor, so year can either be 1 by default, or 1 or 2 if specified.
+//	Overload constructor, so year can either be 2009 by default, or something else if specified.
 	RentalCar(String make, String model, long id, String driverFirstName, String driverLastName) {
 		
 		this.setMake(make);
@@ -63,7 +63,6 @@ class RentalCar {
 	}
 	
 	public String getDriver() {
-		System.out.println(this.driver.toString());
 		return this.driver.toString();
 	}
 	

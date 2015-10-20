@@ -1,0 +1,12 @@
+package com.psamp.util;
+
+class Person {
+	
+	public String search(String lookingFor) {
+		Device d = new Device();
+		
+		d.browser("Bananas");
+		
+	}
+
+}

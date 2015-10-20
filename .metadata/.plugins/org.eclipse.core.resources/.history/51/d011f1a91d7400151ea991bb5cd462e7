@@ -1,0 +1,13 @@
+package com.psamp.rental;
+
+class Report {
+	
+	public String displayRentalCars(RentalCar[] cars) {
+		
+	}
+	
+	public String displayHotelRooms(HotelRoom[] rooms) {
+		
+	}
+
+}

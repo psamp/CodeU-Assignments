@@ -1,0 +1,11 @@
+package com.psamp.util;
+
+public class SearchEngine {
+	
+	public String google(String query) {
+		
+		String search = Math.random() + " results for " + query;
+		
+		return search;
+	}
+}

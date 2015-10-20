@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
-org.eclipse.ant.ui.commentsColor=140,63,200
-org.eclipse.ant.ui.constantStringsColor=71,116,136
-org.eclipse.ant.ui.dtdColor=247,197,39
-org.eclipse.ant.ui.processingInstructionsColor=255,255,255
-org.eclipse.ant.ui.tagsColor=247,197,39
-org.eclipse.ant.ui.textColor=255,255,255
+org.eclipse.ant.ui.commentsColor=125,140,147
+org.eclipse.ant.ui.constantStringsColor=199,141,155
+org.eclipse.ant.ui.dtdColor=130,103,126
+org.eclipse.ant.ui.processingInstructionsColor=192,192,192
+org.eclipse.ant.ui.tagsColor=130,103,126
+org.eclipse.ant.ui.textColor=192,192,192

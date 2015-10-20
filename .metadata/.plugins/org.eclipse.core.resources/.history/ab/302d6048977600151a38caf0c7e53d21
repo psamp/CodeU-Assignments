@@ -1,0 +1,27 @@
+package com.psamp.util;
+
+class HotelRoom {
+	private int number;
+	private int beds;
+	private boolean isSmokingAllowed;
+	
+	HotelRoom() {
+		this.beds = this.bedCheck(b);
+	}
+	
+	HotelRoom(int n, int b, boolean s) {
+		
+		this.number = n;
+		this.beds = this.bedCheck(b);
+		this.isSmokingAllowed = s;
+	}
+	
+	private int bedCheck(num) {
+		if(num >= 2) {
+			return 2;
+		} else {
+			return 1;
+		}
+	}
+
+}
