@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest (1)" project="hwOct20" tests="14" started="14" failures="0" errors="0" ignored="0">
+  <testsuite name="com.psamp.util.CalculatorTest" time="0.001">
+    <testcase name="testFirstLarger" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSumArray" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testMultiplyTheseDouble" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testDivideTheseInts" classname="com.psamp.util.CalculatorTest" time="0.001"/>
+    <testcase name="testAddThese" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testFirstLargerString" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSumArrayWithInt" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testMultiplyTheseInts" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSumArrayWithStrings" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testGetLength" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testCountValues" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testDivideTheseDoubles" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSubtractThese" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+    <testcase name="testSumArrayNegative" classname="com.psamp.util.CalculatorTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -15,12 +15,12 @@ class RentalCar {
 		this.driver = new Driver(ln, fn);
 	}
 	
-	RentalCar(String ma, String mo, long i, String ln, String fn) {
+	RentalCar(String ma, String mo, long i, String fn, String ln) {
 		this.make = ma;
 		this.model = mo;
 		this.year = 2009;
 		this.ID = i;
-		this.driver = new Driver(ln, fn);
+		this.driver = new Driver(fn, ln);
 	}
 	
 	@Override

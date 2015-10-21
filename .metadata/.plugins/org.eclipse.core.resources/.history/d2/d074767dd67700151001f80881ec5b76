@@ -1,0 +1,209 @@
+package com.psamp.util;
+
+class Calculator {
+
+//	Add two doubles.
+	double addThese(double a, double b) {
+		double sum = a + b;
+		System.out.println("double | addThese");
+		return sum;
+	}
+	
+	int addThese(int a, int b) {
+		int sum = a + b;
+		System.out.println("int | addThese");
+		return sum;
+	}
+	
+//	Subtract two doubles.
+	double subtractThese(double x, double y) {
+		double left = x - y;
+		System.out.println("double | subtractThese");
+		return left;
+	}
+	
+	int subtractThese(int x, int y) {
+		int left = x - y;
+		System.out.println("int | subtractThese");
+		return left;
+	}
+	
+//	Multiply two doubles.
+	double multiplyThese(double g, double h) {
+		double product = g * h;
+		System.out.println("double | multiplyThese");
+		return product;
+	}
+	
+	int multiplyThese(int g, int h) {
+		int product = g * h;
+		System.out.println("int | multiplyThese");
+		return product;
+	}
+	
+//	Divide two doubles.
+	double divideThese(double j, double k) {
+		double result = j / k;
+		System.out.println("double | divideThese");
+		return result;
+	}
+	
+	int divideThese(int j, int k) {
+		int result = j / k;
+		System.out.println("int | divideThese");
+		return result;
+	}
+	
+//	Get length of a string.
+	int getLength(String abcs) {
+		return abcs.length();
+	}
+	
+	int getLength(int num) {
+		int length = String.toString(num);
+		return ;
+	}
+	
+//	Return true if the first number or word passed in is larger than the second.
+	boolean firstLarger(double l, double m) {
+		
+		boolean tf = false;
+		
+		if (l > m) {
+			tf = true;
+		}
+		
+		return tf;
+	
+	}
+	
+	boolean firstLarger(int l, int m) {
+		
+		boolean tf = false;
+		
+		if (l > m) {
+			tf = true;
+		}
+		
+		return tf;
+	
+	}
+	
+	boolean firstLarger(String l, String m) {
+		
+		boolean tf = false;
+		
+		if (l.length() > m.length()) {
+			tf = true;
+		}
+		
+		System.out.println("string | firstLarger");
+		
+		return tf;
+	
+	}
+	
+//	Sum the contents of an array of positive numbers.
+	double sumArray(double[] arr, String name) {
+		double sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			if(arr[i] > 0) {
+				sum += arr[i];
+			}
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+	double sumArray(String[] arr, String name) {
+		double sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			double num = Double.parseDouble(arr[i]);
+			
+			if(num > 0) {
+				sum += num;
+			}
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+	int sumArray(int[] arr, String name) {
+		int sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			if(arr[i] > 0) {
+				sum += arr[i];
+			}
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+//	Sum the contents of an array of positive and negative numbers.
+	double sumArrayNegative(double[] arr, String name) {
+		double sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+				sum += arr[i];
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+	int sumArrayNegative(int[] arr, String name) {
+		int sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+				sum += arr[i];
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+	double sumArrayNegative(String[] arr, String name) {
+		double sum = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			double num = Double.parseDouble(arr[i]);
+				sum += num;
+		}
+		
+		System.out.println("The sum of " + name + " is " + sum + ".");
+		
+		return sum;
+	}
+	
+//	Find multiple instances of a number.
+	double countValues(double[] arr, double num) {
+		
+		double found = 0;
+		
+		for (int i = 0; (i < arr.length) & (found <= 5); i++) {
+			if (arr[i] == num) {
+				found++;
+			}
+		}
+		
+		System.out.println("Found " + found + " instances of: " + num );
+		return found;
+		
+	}
+	
+}

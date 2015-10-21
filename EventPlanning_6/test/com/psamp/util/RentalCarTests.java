@@ -18,7 +18,7 @@ public class RentalCarTests {
 
 	@Test
 	public final void testToStringCarOne() {
-		String expected = "Lora Ipsum drives the 2007 Chevy Impala | ID: 1";
+		String expected = "Lora Ipsum drives the 2007 Chevy Impala (ID: 1.)" + "\n";
 		String actual = c1.toString();
 		
 		assertEquals(expected, actual);
@@ -26,7 +26,7 @@ public class RentalCarTests {
 	
 	@Test
 	public final void testToStringCarTwo() {
-		String expected = "Dolor Siamet drives the 2009 GMC Yukon | ID: 2";
+		String expected = "Dolor Siamet drives the 2009 GMC Yukon (ID: 2.)" + "\n";
 		String actual = c2.toString();
 		
 		assertEquals(expected, actual);

@@ -18,7 +18,7 @@ public class HotelRoomTests {
 
 	@Test
 	public final void testToStringRoomOne() {
-		String expected = "Room 15 has 2 bed(s). Smoking is not allowed.";
+		String expected = "Room 15 has 2 bed(s). Smoking is not allowed." + "\n";
 		String actual = r1.toString();
 		
 		assertEquals(expected, actual);
@@ -26,7 +26,7 @@ public class HotelRoomTests {
 	
 	@Test
 	public final void testToStringRoomTwo() {
-		String expected = "Room 93 has 1 bed(s). Smoking is allowed.";
+		String expected = "Room 93 has 1 bed(s). Smoking is allowed." + "\n";
 		String actual = r2.toString();
 		
 		assertEquals(expected, actual);
