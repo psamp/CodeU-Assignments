@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="RentalManagerTests (3)" project="EventPlanning_6" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="com.psamp.util.RentalManagerTests" time="0.001">
-    <testcase name="testDisplayAllRentalCars" classname="com.psamp.util.RentalManagerTests" time="0.001"/>
-    <testcase name="testGetAmoutOfCars" classname="com.psamp.util.RentalManagerTests" time="0.0"/>
-    <testcase name="testDisplayAllHotelRooms" classname="com.psamp.util.RentalManagerTests" time="0.0"/>
-    <testcase name="testGetAmoutOfRooms" classname="com.psamp.util.RentalManagerTests" time="0.0"/>
-  </testsuite>
-</testrun>

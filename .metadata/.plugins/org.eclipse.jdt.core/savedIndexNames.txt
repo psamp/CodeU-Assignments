@@ -1,3 +1,2 @@
 INDEX VERSION 1.127+/Users/psampson/code/codeu/.metadata/.plugins/org.eclipse.jdt.core
-2154537804.index
-3642410044.index
+1934834767.index
