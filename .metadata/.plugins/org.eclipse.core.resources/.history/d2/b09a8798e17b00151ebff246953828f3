@@ -1,0 +1,8 @@
+package com.codeu.event.rental;
+
+public bstract class Rental {
+	
+	@Override
+	public abstract String toString();
+
+}

@@ -1,0 +1,24 @@
+package com.codeu.event.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.codeu.event.reservation.Reservation;
+
+public class ReserveMethodTests {
+	
+	Reservation carRes;
+	Reservation carRes;
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public final void testReserve() {
+		fail("Not yet implemented");
+	}
+
+}

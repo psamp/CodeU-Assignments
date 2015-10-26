@@ -1,0 +1,20 @@
+package com.psamp.powerco;
+
+class Electric {
+	
+	private double proxToCoal;
+
+	public double getProxToCoal() {
+		return proxToCoal;
+	}
+
+	private void setProxToCoal(double proxToCoal) {
+		this.proxToCoal = proxToCoal;
+	}
+
+	@Override
+	public String toString() {
+		return "Electric [proxToCoal=" + this.getProxToCoal() + "]";
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.psamp.powerco;
+
+class Solar extends Plant {
+	enum descision {ROCK, PAPER, SCISSORS};
+	
+	@Override
+	int generatePower() {
+		System.out.println("Solar's generate power");
+		return 700_000;
+	}
+
+	@Override
+	boolean fail() {
+		if(System.currentTimeMillis() % 3 == 0)
+	}
+
+}

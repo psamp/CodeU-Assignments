@@ -39,30 +39,30 @@ class HotelRoom implements Format {
 		return mssg;
 	}
 
-	public int getNumber() {
+	int getNumber() {
 		return number;
 	}
 
-	public int getBeds() {
+	int getBeds() {
 		return beds;
 	}
 
-	public boolean isSmokingAllowed() {
+	boolean isSmokingAllowed() {
 		return isSmokingAllowed;
 	}
 
-	public void setNumber(int number) {
+	void setNumber(int number) {
 		this.number = number;
 	}
 
-	public void setBeds(int beds) {
+	void setBeds(int beds) {
 		
 		int check = this.checkHowManyBeds(beds);
 		
 		this.beds = check;
 	}
 
-	public void isSmokingAllowed(boolean isSmokingAllowed) {
+	void isSmokingAllowed(boolean isSmokingAllowed) {
 		this.isSmokingAllowed = isSmokingAllowed;
 	}
 

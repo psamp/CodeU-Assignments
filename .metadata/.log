@@ -2670,3 +2670,188 @@ java.net.SocketTimeoutException: Read timed out
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:259)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.objectaid.uml @ com.objectaid.uml.java.JavaElementFactory.createIdentifier(195) 4 0 2015-10-22 05:38:33.827
+!MESSAGE ! understands( javaElement ): null
+!STACK 0
+com.objectaid.uml.UMLException: ! understands( javaElement ): null
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:195)
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:64)
+	at com.objectaid.uml.util.LanguageHelper.getLanguageElementHandle(LanguageHelper.java:58)
+	at com.objectaid.uml.model.refactor.LanguageElementIdentifierChange.perform(LanguageElementIdentifierChange.java:139)
+	at com.objectaid.uml.model.refactor.CommandChange.perform(CommandChange.java:129)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at com.objectaid.uml.model.refactor.CompositeDiagramChange.perform(CompositeDiagramChange.java:43)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10009 2015-10-22 05:38:33.830
+!MESSAGE Participant 'JavaRenameParticipant' removed due to the following exception
+!STACK 0
+com.objectaid.uml.UMLException: ! understands( javaElement ): null
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:195)
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:64)
+	at com.objectaid.uml.util.LanguageHelper.getLanguageElementHandle(LanguageHelper.java:58)
+	at com.objectaid.uml.model.refactor.LanguageElementIdentifierChange.perform(LanguageElementIdentifierChange.java:139)
+	at com.objectaid.uml.model.refactor.CommandChange.perform(CommandChange.java:129)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at com.objectaid.uml.model.refactor.CompositeDiagramChange.perform(CompositeDiagramChange.java:43)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2015-10-22 05:38:34.338
+!MESSAGE Internal Error
+!STACK 0
+com.objectaid.uml.UMLException: ! understands( javaElement ): null
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:195)
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:64)
+	at com.objectaid.uml.util.LanguageHelper.getLanguageElementHandle(LanguageHelper.java:58)
+	at com.objectaid.uml.model.refactor.LanguageElementIdentifierChange.perform(LanguageElementIdentifierChange.java:139)
+	at com.objectaid.uml.model.refactor.CommandChange.perform(CommandChange.java:129)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at com.objectaid.uml.model.refactor.CompositeDiagramChange.perform(CompositeDiagramChange.java:43)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 4 2015-10-22 05:38:34.348
+!MESSAGE ! understands( javaElement ): null
+!STACK 0
+com.objectaid.uml.UMLException: ! understands( javaElement ): null
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:195)
+	at com.objectaid.uml.java.JavaElementFactory.createIdentifier(JavaElementFactory.java:64)
+	at com.objectaid.uml.util.LanguageHelper.getLanguageElementHandle(LanguageHelper.java:58)
+	at com.objectaid.uml.model.refactor.LanguageElementIdentifierChange.perform(LanguageElementIdentifierChange.java:139)
+	at com.objectaid.uml.model.refactor.CommandChange.perform(CommandChange.java:129)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at com.objectaid.uml.model.refactor.CompositeDiagramChange.perform(CompositeDiagramChange.java:43)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:223)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-10-23 07:48:25.888 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-23 07:48:40.474
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-10-23 07:48:47.892
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+!SESSION 2015-10-23 13:13:10.316 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-23 13:13:24.160
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-10-23 13:13:32.873
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.core.resources 4 376 2015-10-23 14:11:07.633
+!MESSAGE Marker id 4827 not found.
+!SESSION 2015-10-24 07:58:41.795 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-24 07:58:56.863
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-10-24 07:59:10.446
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+!SESSION 2015-10-25 14:07:38.241 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-25 14:07:53.696
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-10-25 14:08:06.188
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+!SESSION 2015-10-26 08:43:10.404 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/psampson/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-26 08:43:25.930
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2015-10-26 08:43:36.617
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.objectaid.uml' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.objectaid.uml @ com.objectaid.uml.util.extend.ExecutableExtensionManager.get(107) 4 0 2015-10-26 08:43:38.224
+!MESSAGE duplicate id 'PNG' for com.objectaid.uml.renderFormats
+!STACK 0
+com.objectaid.uml.UMLException: duplicate id 'PNG' for com.objectaid.uml.renderFormats
+	at com.objectaid.uml.util.extend.ExecutableExtensionManager.get(ExecutableExtensionManager.java:107)
+	at com.objectaid.uml.model.persistence.PersistedDiagram.getAutomaticImage(PersistedDiagram.java:186)
+	at com.objectaid.uml.model.definition.DiagramDefinition.updateModel(DiagramDefinition.java:43)
+	at com.objectaid.uml.cls.model.definition.ClassDiagramDefinition.updateModel(ClassDiagramDefinition.java:42)
+	at com.objectaid.uml.cls.model.definition.ClassDiagramDefinition.updateModel(ClassDiagramDefinition.java:22)
+	at com.objectaid.uml.model.definition.ModelDefinition.create(ModelDefinition.java:185)
+	at com.objectaid.uml.model.persistence.UnmarshalDiagramVisitor.doVisit(UnmarshalDiagramVisitor.java:77)
+	at com.objectaid.uml.model.persistence.UnmarshalDiagramVisitor.doVisit(UnmarshalDiagramVisitor.java:26)
+	at com.objectaid.uml.util.collection.GenericVisitor.visit(GenericVisitor.java:40)
+	at com.objectaid.uml.model.persistence.PersistedDiagram.accept(PersistedDiagram.java:40)
+	at com.objectaid.uml.model.diagram.DiagramFactory.unmarshal(DiagramFactory.java:242)
+	at com.objectaid.uml.model.DiagramHandle.unmarshalModel(DiagramHandle.java:211)
+	at com.objectaid.uml.model.DiagramHandle.unmarshal(DiagramHandle.java:160)
+	at com.objectaid.uml.model.manage.DiagramManager.add(DiagramManager.java:104)
+	at com.objectaid.uml.model.manage.StartupJob$2.run(StartupJob.java:83)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,29 @@
+package com.codeu.event.reservation;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class ReservationTests {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public final void testValidateClubNumber() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public final void testValidateLicense() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public final void testReserve() {
+		fail("Not yet implemented");
+	}
+
+}

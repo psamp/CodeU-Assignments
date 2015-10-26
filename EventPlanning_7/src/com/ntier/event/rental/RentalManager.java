@@ -1,6 +1,6 @@
 package com.ntier.event.rental;
 
-public class RentalManager {
+class RentalManager {
 	private static HotelRoom[] rooms;
 	private static RentalCar[] cars;
 	private static Report report;

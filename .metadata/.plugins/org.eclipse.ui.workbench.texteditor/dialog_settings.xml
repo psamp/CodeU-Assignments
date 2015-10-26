@@ -15,14 +15,14 @@
 		<item value="false" key="wholeword"/>
 		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value="club"/>
+			<item value="public"/>
+			<item value="lator"/>
+			<item value="values"/>
+			<item value="!"/>
 			<item value="random"/>
 			<item value="arr[]"/>
 			<item value="arr"/>
-			<item value="sumaray"/>
-			<item value="Calculator calc = new Calculator();"/>
-			<item value="the sum"/>
-			<item value="System"/>
-			<item value="sys"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

@@ -1,7 +1,0 @@
-package com.ntier.event.rental;
-
-interface ToString {
-	
-	String toString();
-
-}

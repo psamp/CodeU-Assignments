@@ -51,7 +51,7 @@ public class Calculator {
 	
 	}
 	
-//	Sum the contents of an array of postive numbers.
+//	Sum the contents of an array of positive numbers.
 	public double sumArray(double[] arr, String name) {
 		double sum = 0;
 		

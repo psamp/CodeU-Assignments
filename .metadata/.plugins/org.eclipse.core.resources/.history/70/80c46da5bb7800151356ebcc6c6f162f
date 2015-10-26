@@ -1,0 +1,10 @@
+package com.psamp.memberaccess;
+
+class B extends A {
+	int total;
+	
+	void sum() {
+		this.total = i + j;
+	}
+
+}

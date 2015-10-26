@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="PreferencesImportWizard">
-		<item value="/Users/psampson/Downloads/chrome/theme-128.epf" key=""/>
 		<item value="/Users/psampson/Downloads/chrome/Preferences/theme-3.epf" key=""/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="/Users/psampson/Downloads/chrome/theme-128.epf"/>
@@ -34,21 +33,30 @@
 		<item value="94" key="DIALOG_Y_ORIGIN"/>
 		<item value="411" key="DIALOG_X_ORIGIN"/>
 	</section>
-	<section name="NewWizardAction">
-		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.objectaid.uml.new"/>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/psampson/Downloads/chrome/Lab11.3 setup.zip"/>
 		</list>
 	</section>
 	<section name="ZipFileExportWizard">
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/WeekendOct24_HWEmailSenderRoomsRUs_Princess.zip"/>
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct23_HWReservations_Princess.zip"/>
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct22_HWInheritence_Princess.zip"/>
 			<item value="/Users/psampson/Desktop/EventPlanning_3.zip"/>
 		</list>
 	</section>
+	<section name="NewWizardAction">
+		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.objectaid.uml.new"/>
+		</list>
+	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.Preferences" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>

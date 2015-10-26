@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HotelRoomTests (5)" project="hwOct23_Princess" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.codeu.event.tests.HotelRoomTests" time="0.0">
+    <testcase name="testToStringRoomOne" classname="com.codeu.event.tests.HotelRoomTests" time="0.0"/>
+    <testcase name="testToStringRoomTwo" classname="com.codeu.event.tests.HotelRoomTests" time="0.0"/>
+  </testsuite>
+</testrun>

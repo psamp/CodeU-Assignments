@@ -1,0 +1,31 @@
+package com.psamp.powerco;
+
+abstract class Plant {
+	private int workers;
+	private int age;
+	
+	public abstract void generatePower();
+	public abstract void fail();
+	
+	@Override
+	public String toString() {
+		return "Plant [workers=" + workers + ", age=" + age + "]";
+	}
+	
+	public int getWorkers() {
+		return workers;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setWorkers(int workers) {
+		this.workers = workers;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+	
+
+}

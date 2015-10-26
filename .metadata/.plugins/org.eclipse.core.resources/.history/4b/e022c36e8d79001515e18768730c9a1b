@@ -1,0 +1,17 @@
+package com.psamp.powerco;
+
+class CorpControlRoom {
+	private static Plant[] plants;
+	
+	static {
+		plants = new Plant[5];
+		
+		plants[0]
+		plants[1]
+		plants[2]
+		plants[3]
+		plants[4]
+		plants[5]
+	}
+
+}

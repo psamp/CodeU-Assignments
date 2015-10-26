@@ -1,9 +1,0 @@
-package com.psamp.util;
-
-public class Mom {
-	
-	public String cleanYourRoom() {
-		
-	}
-
-}

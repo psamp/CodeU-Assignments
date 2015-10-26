@@ -1,0 +1,36 @@
+package com.codeu.event.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.codeu.event.rental.Guest;
+import com.codeu.event.rental.HotelRoom;
+import com.codeu.event.rental.Rental;
+import com.codeu.event.rental.RentalCar;
+import com.codeu.event.reservation.Reservation;
+
+public class ReserveMethodTests {
+	
+	Reservation roomRes;
+	Reservation carRes;
+	
+	Guest ak = new Guest("Avatar", "Korra", "N789453425", "N856456723", "78564534678934");
+	Guest as = new Guest("Asami", "Sato", "N456784323", "N9034451289", "876574345676754");
+	
+	Rental car = new RentalCar(year, make, model, id, lastName, firstName);
+	Rental room = new HotelRoom(1214, 2, false);
+
+	@Before
+	public void setUp() throws Exception {
+		roomsRes = new RoomReservation();
+		carRes = new CarReservation();
+	}
+
+	@Test
+	public final void test() {
+		fail("Not yet implemented");
+	}
+
+}

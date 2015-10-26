@@ -1,8 +1,0 @@
-package com.psamp.util;
-
-public class SearchEngine {
-	
-	public String (String query) {
-		return Math.random() + " results for " + query;
-	}
-}

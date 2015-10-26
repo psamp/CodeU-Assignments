@@ -1,0 +1,41 @@
+package com.psamp.powerco;
+
+abstract class Plant {
+	private int workers;
+	private int age;
+	
+	Plant(int workers, int age) {
+		this.setWorkers(workers);
+		this.setAge(age);
+	}
+	
+	double chargeForService() {
+		System.out.println("All power plants want your first born.");
+		return 8_000_000;
+	}
+	
+	abstract int generatePower();
+	abstract boolean fail();
+	
+	@Override
+	public String toString() {
+		return "Plant [workers=" + workers + ", age=" + age + "]";
+	}
+	
+	public int getWorkers() {
+		return workers;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setWorkers(int workers) {
+		this.workers = workers;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+	
+
+}

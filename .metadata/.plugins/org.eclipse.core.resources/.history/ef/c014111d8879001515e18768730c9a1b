@@ -1,0 +1,11 @@
+package com.psamp.powerco;
+
+abstract class Plant {
+	private int workers;
+	private int age;
+	
+	public abstract void generatePower();
+	public abstract void fail();
+	
+
+}
