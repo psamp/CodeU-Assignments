@@ -20,6 +20,7 @@ public class HotelRoomTests {
 
 	@Test
 	public final void testToString() {
+		
 		String expectedOne = "Room 15 has 2 bed(s). Smoking is not allowed." + "\n";
 		String actualOne = r1.toString();
 		
@@ -28,6 +29,7 @@ public class HotelRoomTests {
 		
 		assertEquals(expectedOne, actualOne);
 		assertEquals(expectedTwo, actualTwo);
+		
 	}
 	
 	@Test
@@ -35,6 +37,7 @@ public class HotelRoomTests {
 		
 		assertTrue(r1.equals(r2));
 		assertTrue(r2.equals(r1));
+		
 	}
 	
 	

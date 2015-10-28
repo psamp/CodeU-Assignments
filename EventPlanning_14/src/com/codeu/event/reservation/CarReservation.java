@@ -1,12 +1,12 @@
 package com.codeu.event.reservation;
 
-import com.codeu.currency.Spendable;
-import com.codeu.currency.USD;
 import com.codeu.event.insurance.Insurance;
 import com.codeu.event.rental.CreditCard;
 import com.codeu.event.rental.Guest;
 import com.codeu.event.rental.Rentable;
 import com.codeu.event.rental.RentalCar;
+import com.codeu.spendable.Spendable;
+import com.codeu.spendable.USD;
 import com.ntier.event.util.EmailSender;
 
 public class CarReservation extends Reservation implements Insurance {

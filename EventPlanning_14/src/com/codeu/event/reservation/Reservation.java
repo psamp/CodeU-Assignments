@@ -1,16 +1,18 @@
 package com.codeu.event.reservation;
 
-import com.codeu.currency.Spendable;
 import com.codeu.event.rental.CreditCard;
 import com.codeu.event.rental.Guest;
+import com.codeu.spendable.Spendable;
 
 public abstract class Reservation {
 	Guest guest;
 	boolean isValid;
 	
 	Reservation(Guest guest) {
+		
 		this.setGuest(guest);
 		this.setValid(false);
+		
 	}
 	
 	abstract boolean reserve(CreditCard cc, Spendable type);

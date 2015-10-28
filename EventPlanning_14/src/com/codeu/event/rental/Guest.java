@@ -13,6 +13,10 @@ public class Guest implements Serializable {
 	private String carClubNumber;
 	private String driversLicense;
 	
+	public Guest() {
+		
+	}
+	
 	public Guest(String firstName, String lastName, String hotelClubNumber, String carClubNumber, String getDriversLicense) {
 		
 		this.setFirstName(firstName);
@@ -23,14 +27,12 @@ public class Guest implements Serializable {
 		
 	}
 	
-	public Guest() {
-		
-	}
-	
 	@Override
 	public String toString() {
+		
 		String mssg = this.firstName + " " + this.lastName;
 		return mssg;
+	
 	}
 	
 	public static long getSerialversionuid() {

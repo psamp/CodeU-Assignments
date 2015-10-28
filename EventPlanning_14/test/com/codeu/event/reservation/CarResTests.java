@@ -5,15 +5,15 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.codeu.currency.AUD;
-import com.codeu.currency.CFP;
-import com.codeu.currency.KES;
-import com.codeu.currency.Spendable;
-import com.codeu.currency.USD;
 import com.codeu.event.rental.CreditCard;
 import com.codeu.event.rental.Guest;
 import com.codeu.event.rental.Rentable;
 import com.codeu.event.rental.RentalCar;
+import com.codeu.spendable.AUD;
+import com.codeu.spendable.CFP;
+import com.codeu.spendable.KES;
+import com.codeu.spendable.Spendable;
+import com.codeu.spendable.USD;
 
 public class CarResTests {
 
@@ -48,6 +48,7 @@ public class CarResTests {
 
 	@Test
 	public final void testToString() {
+		
 		String expectedOne = "Hello, Bucky Barnes! Your club number is: N89766655546789" + "\n" + "Here's your booking:"
 				+ "\n" + "Bucky Barnes drives the 2015 GMC Yukon (ID: 3.)" + "\n";
 		String actualOne = resOne.toString();
@@ -57,6 +58,7 @@ public class CarResTests {
 
 		assertEquals(expectedOne, actualOne);
 		assertEquals(expectedTwo, actualTwo);
+		
 	}
 	
 	@Test

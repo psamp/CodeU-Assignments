@@ -1,10 +1,10 @@
 package com.codeu.event.reservation;
 
-import com.codeu.currency.Spendable;
 import com.codeu.event.rental.CreditCard;
 import com.codeu.event.rental.Guest;
 import com.codeu.event.rental.HotelRoom;
 import com.codeu.event.rental.Rentable;
+import com.codeu.spendable.Spendable;
 import com.vendor.RoomsRUs;
 
 public class RoomReservation extends Reservation {
@@ -12,9 +12,11 @@ public class RoomReservation extends Reservation {
 	private boolean shuttle;
 
 	public RoomReservation(Guest guest, Rentable room, boolean shuttle) {
+		
 		super(guest);
 		this.setRoom(room);
 		this.setShuttle(shuttle);
+	
 	}
 	
 	@Override

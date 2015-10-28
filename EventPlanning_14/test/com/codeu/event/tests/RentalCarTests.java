@@ -15,12 +15,15 @@ public class RentalCarTests {
 
 	@Before
 	public void setUp() {
+		
 		c1 = new RentalCar(2007, "Chevy", "Impala", 56, "Lora", "Ipsum");
 		c2 = new RentalCar("GMC", "Yukon", 56, "Dolor", "Siamet");
+	
 	}
 
 	@Test
 	public final void testToString() {
+		
 		String expectedOne = "Lora Ipsum drives the 2007 Chevy Impala (ID: 56.)" + "\n";
 		String actualOne = c1.toString();
 		
@@ -29,10 +32,12 @@ public class RentalCarTests {
 		
 		assertEquals(expectedOne, actualOne);
 		assertEquals(expectedTwo, actualTwo);
+		
 	}
 	
 	@Test
 	public final void testEquals() {
+		
 		boolean expectedOne = true;
 		boolean actualOne = c1.equals(c2);
 		
@@ -41,6 +46,7 @@ public class RentalCarTests {
 		
 		assertEquals(expectedOne, actualOne);
 		assertEquals(expectedTwo, actualTwo);
+		
 	}
 
 }

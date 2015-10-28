@@ -5,14 +5,14 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.codeu.currency.AUD;
-import com.codeu.currency.CFP;
-import com.codeu.currency.KES;
-import com.codeu.currency.Spendable;
-import com.codeu.currency.USD;
 import com.codeu.event.rental.CreditCard;
 import com.codeu.event.rental.Guest;
 import com.codeu.event.rental.HotelRoom;
+import com.codeu.spendable.AUD;
+import com.codeu.spendable.CFP;
+import com.codeu.spendable.KES;
+import com.codeu.spendable.Spendable;
+import com.codeu.spendable.USD;
 
 public class RoomResTests {
 	private RoomReservation resOne;

@@ -19,10 +19,12 @@ public class RentalManager {
 	}
 	
 	private static void buildRooms() {
+		
 		RentalManager.rooms[0] = new HotelRoom(16, 3, true);
 		RentalManager.rooms[1] = new HotelRoom(12, false);
 		RentalManager.rooms[2] = new HotelRoom(4, true);
 		RentalManager.rooms[3] = new HotelRoom(43, 2, false);
+	
 	}
 	
 	private static void buildCars() {
@@ -43,9 +45,11 @@ public class RentalManager {
 	}
 	
 	 public String displayCars() {
+		 
 		String mssg = report.displayInventory(RentalManager.cars);
 		return mssg;
-	}
+	
+	 }
 	
 	 public String getAmoutOfCars() {
 		return "Available cars: " + RentalManager.cars.length;

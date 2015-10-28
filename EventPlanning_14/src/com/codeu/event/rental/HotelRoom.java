@@ -11,10 +11,16 @@ public class HotelRoom extends Rentable implements Serializable {
 	private int beds;
 	private boolean isSmokingAllowed;
 	
+	public HotelRoom() {
+		
+	}
+	
 	public HotelRoom(int number, boolean smoking) {
+	
 		this.setNumber(number);
 		this.setBeds(1);
 		this.isSmokingAllowed(smoking);
+	
 	}
 	
 	public HotelRoom(int number, int beds, boolean smoking) {
@@ -22,18 +28,21 @@ public class HotelRoom extends Rentable implements Serializable {
 		this.setNumber(number);
 		this.setBeds(beds);
 		this.isSmokingAllowed(smoking);
-	}
-	
-	public HotelRoom() {
 		
 	}
 	
 	private int checkHowManyBeds(int num) {
+		
 		if(num >= 2) {
+		
 			return 2;
+		
 		} else {
+			
 			return 1;
+		
 		}
+		
 	}
 	
 	public String toString() {
@@ -41,9 +50,13 @@ public class HotelRoom extends Rentable implements Serializable {
 		String mssg = "";
 		
 		if (this.isSmokingAllowed == false) {
+			
 			mssg = "Room " + this.getNumber() + " has " + this.getBeds() + " bed(s). Smoking is not allowed." + "\n";
+		
 		} else {
+		
 			mssg = "Room " + this.getNumber() + " has " + this.getBeds() + " bed(s). Smoking is allowed." + "\n";
+		
 		}
 		
 		return mssg;
@@ -55,6 +68,7 @@ public class HotelRoom extends Rentable implements Serializable {
 		if(obj instanceof HotelRoom) {
 			
 			HotelRoom rc = (HotelRoom) obj;
+			
 			return this.getNumber() == rc.getNumber() ;	
 		
 		}

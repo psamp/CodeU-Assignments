@@ -18,33 +18,42 @@ public class RentalCar extends Rentable implements Serializable {
 	}
 	
 	public RentalCar(long year, String make, String model, long id) {
+		
 		this.setYear(year);
 		this.setMake(make);
 		this.setModel(model);
 		this.setID(id);
 		this.setYear(year);
+	
 	}
 	
 	public RentalCar(long year, String make, String model, long id, String lastName, String firstName) {
+		
 		this.setMake(make);
 		this.setModel(model);
 		this.setID(id);
 		this.setYear(year);
 		this.driver = new Driver(lastName, firstName);
+	
 	}
 	
 	public RentalCar(String make, String model, long id, String firstName, String lastName) {
+		
 		this.setMake(make);
 		this.setModel(model);
 		this.setID(id);
 		this.setYear(2009);
 		this.driver = new Driver(firstName, lastName);
+	
 	}
 	
 	 public String toString() {
+		 
 		String mssg = this.getDriver() + " drives the " + this.getYear() + " " + this.getMake() + " " + this.getModel() + " (ID: " + this.getID() + ".)" + "\n";
+	
 		return mssg;	
-	}
+	
+	 }
 	 
 	@Override
 	public boolean equals(Object obj) {

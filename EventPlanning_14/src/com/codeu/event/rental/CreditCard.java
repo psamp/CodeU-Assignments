@@ -13,16 +13,17 @@ public class CreditCard implements Serializable {
 	private String securityCode;
 	private String cardNumber;
 	
+	public CreditCard() {
+		
+	}
+	
 	public CreditCard(String firstName, String lastName, String expirationDate, String securityCode, String cardNumber) {
+		
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
 		this.setExpirationDate(expirationDate);
 		this.setSecurityCode(securityCode);
 		this.setCardNumber(cardNumber);
-		
-	}
-	
-	public CreditCard() {
 		
 	}
 
@@ -65,7 +66,4 @@ public class CreditCard implements Serializable {
 	private void setCardNumber(String cardNumber) {
 		this.cardNumber = cardNumber;
 	}
-	
-	
-
 }
