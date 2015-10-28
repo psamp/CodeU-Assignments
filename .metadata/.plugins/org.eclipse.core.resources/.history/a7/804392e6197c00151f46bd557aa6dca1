@@ -1,0 +1,34 @@
+package com.codeu.event.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.codeu.event.rental.Rental;
+import com.codeu.event.rental.RentalCar;
+
+public class RentalCarTests {
+	
+	private Rental c1;
+	private Rental c2;
+
+	@Before
+	public void setUp() {
+		c1 = new RentalCar(2007, "Chevy", "Impala", 1, "Lora", "Ipsum");
+		c2 = new RentalCar("GMC", "Yukon", 1, "Dolor", "Siamet");
+	}
+
+	@Test
+	public final void testToString() {
+		String expectedOne = "Lora Ipsum drives the 2007 Chevy Impala (ID: 1.)" + "\n";
+		String actualOne = c1.toString();
+		
+		String expectedTwo = "Dolor Siamet drives the 2009 GMC Yukon (ID: 1.)" + "\n";
+		String actualTwo = c2.toString();
+		
+		assertEquals(expectedOne, actualOne);
+		assertEquals(expectedTwo, actualTwo);
+	}
+
+}

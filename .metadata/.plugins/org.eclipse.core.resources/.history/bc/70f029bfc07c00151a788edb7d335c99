@@ -1,0 +1,5 @@
+package com.codeu.event.insurance;
+
+public interface Insurance {
+
+}

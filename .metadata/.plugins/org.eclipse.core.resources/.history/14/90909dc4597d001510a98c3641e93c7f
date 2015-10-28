@@ -1,0 +1,16 @@
+package com.codeu.currency;
+
+public class USD extends Currency {
+	
+	public USD(char currencySymbol) {
+		super(currencySymbol);
+	}
+
+	@Override
+	public String toString() {
+		
+		String mssg = "";
+	
+	}
+
+}

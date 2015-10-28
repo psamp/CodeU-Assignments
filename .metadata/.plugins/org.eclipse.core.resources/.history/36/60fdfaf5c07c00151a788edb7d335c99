@@ -1,0 +1,15 @@
+package com.codeu.event.insurance;
+
+public interface Insurance {
+	
+	public boolean buyInsurance(int payment) {
+		
+		if(payment == 10) {
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+
+}

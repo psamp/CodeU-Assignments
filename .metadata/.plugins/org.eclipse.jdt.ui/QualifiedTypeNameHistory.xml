@@ -15,15 +15,19 @@
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="com.psamp.util.HotelRoom"/>
 <fullyQualifiedTypeName name="com.psamp.util.RentalCar"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="com.psamp.morepractical.BoxWeight"/>
-<fullyQualifiedTypeName name="com.codeu.event.rental.Guest"/>
-<fullyQualifiedTypeName name="com.codeu.event.reservation.RoomReservation"/>
 <fullyQualifiedTypeName name="com.psamp.powerco.Solar"/>
 <fullyQualifiedTypeName name="com.psamp.powerco.CorpControlRoom"/>
-<fullyQualifiedTypeName name="com.codeu.event.rental.Rental"/>
-<fullyQualifiedTypeName name="com.codeu.event.rental.HotelRoom"/>
-<fullyQualifiedTypeName name="com.codeu.event.rental.RentalCar"/>
 <fullyQualifiedTypeName name="com.ntier.event.util.EmailSender"/>
 <fullyQualifiedTypeName name="com.vendor.RoomsRUs"/>
+<fullyQualifiedTypeName name="com.codeu.event.reservation.Reservation"/>
+<fullyQualifiedTypeName name="com.codeu.event.rental.RentalCar"/>
+<fullyQualifiedTypeName name="com.codeu.event.rental.HotelRoom"/>
+<fullyQualifiedTypeName name="com.codeu.event.reservation.RoomReservation"/>
+<fullyQualifiedTypeName name="com.codeu.event.rental.Guest"/>
+<fullyQualifiedTypeName name="com.codeu.event.rental.Rental"/>
+<fullyQualifiedTypeName name="com.codeu.event.insurance.Insurance"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.codeu.event.reservation.CarReservation"/>
+<fullyQualifiedTypeName name="com.codeu.event.rental.CreditCard"/>
 </qualifiedTypeNameHistroy>

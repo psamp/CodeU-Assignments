@@ -1,0 +1,9 @@
+package com.codeu.currency;
+
+public abstract class Currency {
+	char currencySymbol;
+	
+	@Override
+	public abstract String toString();
+
+}

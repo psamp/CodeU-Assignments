@@ -1,0 +1,18 @@
+package com.codeu.currency;
+
+import com.codeu.event.rental.CreditCard;
+
+public class USD extends Currency {
+	
+	public USD(char currencySymbol) {
+		super(currencySymbol);
+	}
+
+	@Override
+	public String printReceipt(int amount) {
+		
+		String mssg = "Thank you! You've spent " + this.getCurrencySymbol() + amount;
+		return mssg;
+	
+	}
+}

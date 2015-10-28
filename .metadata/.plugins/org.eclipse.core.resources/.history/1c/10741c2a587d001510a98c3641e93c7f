@@ -1,0 +1,5 @@
+package com.codeu.currency;
+
+public class USD extends Currency {
+
+}

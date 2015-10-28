@@ -1,0 +1,8 @@
+package com.codeu.currency;
+
+public interface Currency {
+	
+//	@Override
+	public String toString();
+
+}
