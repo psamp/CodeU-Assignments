@@ -1,0 +1,9 @@
+package com.psamp.collections;
+
+class HashMapDemo {
+
+	public HashMapDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

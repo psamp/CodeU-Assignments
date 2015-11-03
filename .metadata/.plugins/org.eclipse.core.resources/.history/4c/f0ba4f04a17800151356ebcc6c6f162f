@@ -1,9 +1,0 @@
-package com.psamp.a;
-
-class B extends A {
-	int k;
-	
-	void showk() {
-		System.out.println("k: " + k);
-	}
-}

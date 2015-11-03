@@ -1,0 +1,38 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+
+import com.psamp.bucketlist.BucketList;
+import com.psamp.bucketlist.BucketListException;
+
+public class BucketListTest {
+	
+	BucketList bl;
+
+	@Before
+	public void setUp() throws Exception {
+		
+		bl = new BucketList("build api", "write novel", "learn to drive", "build ficlist");
+	}
+	
+	@Rule
+	public ExpectedException excp = ExpectedException.none();
+
+	@Test
+	public final void testSeeGoals() {
+		
+		bl.setBucketList("get better at swimming", "get a cat");
+		
+		try {
+			bl.seeGoals();
+		} catch(BucketListException aBucketListException) {
+			excp.expect(BucketListException.class);
+			excp.expectMessage("Bucket list too large!");
+		}
+		
+	}
+
+}

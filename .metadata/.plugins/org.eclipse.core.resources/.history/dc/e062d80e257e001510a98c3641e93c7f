@@ -1,0 +1,41 @@
+package com.codeu.event.rental;
+
+import java.io.Serializable;
+
+public class PlaneSeat extends Rentable implements Serializable {
+	private static final long serialVersionUID = 1133021806110300272L;
+	private String departureCode;
+	private String arrivalCode;
+	private int seatNumberAndRow;
+	
+	public PlaneSeat(String departureCode, String arrivalCode, int seatNumberAndRow) {
+		this.setDepartureCode(departureCode);
+		this.setArrivalCode(arrivalCode);
+		this.setSeatNumberAndRow(seatNumberAndRow);
+	}
+
+	private String getDepartureCode() {
+		return departureCode;
+	}
+
+	private String getArrivalCode() {
+		return arrivalCode;
+	}
+
+	private int getSeatNumberAndRow() {
+		return seatNumberAndRow;
+	}
+
+	private void setDepartureCode(String departureCode) {
+		this.departureCode = departureCode;
+	}
+
+	private void setArrivalCode(String arrivalCode) {
+		this.arrivalCode = arrivalCode;
+	}
+
+	private void setSeatNumberAndRow(int seatNumberAndRow) {
+		this.seatNumberAndRow = seatNumberAndRow;
+	}	
+
+}

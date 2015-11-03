@@ -12,8 +12,9 @@
 	</section>
 	<section name="FileSystemImportWizard">
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/psampson/Desktop/Lab13.4"/>
 			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/LabSetup/Lab03.1"/>
 		</list>
 	</section>
@@ -33,16 +34,21 @@
 		<item value="94" key="DIALOG_Y_ORIGIN"/>
 		<item value="411" key="DIALOG_X_ORIGIN"/>
 	</section>
-	<section name="NewWizardAction">
-		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.objectaid.uml.new"/>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/psampson/Desktop/Lab12.4.zip"/>
+			<item value="/Users/psampson/Downloads/chrome/Lab11.3 setup.zip"/>
 		</list>
 	</section>
 	<section name="ZipFileExportWizard">
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct30_HWArrayList_Princess.zip"/>
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct29_HWJavadocOneClass_Princess.zip"/>
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct28_HWCurrencyTypes_Princess.zip"/>
+			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct27_HWFinish11Labs_Princess.zip"/>
 			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct26_HWOverrideEquals_Princess.zip"/>
 			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/WeekendOct24_HWEmailSenderRoomsRUs_Princess.zip"/>
 			<item value="/Users/psampson/Dropbox (CodeU)/CodeU Team Folder/Homework/Princess/Oct23_HWReservations_Princess.zip"/>
@@ -50,10 +56,10 @@
 			<item value="/Users/psampson/Desktop/EventPlanning_3.zip"/>
 		</list>
 	</section>
-	<section name="ZipFileImportWizard">
-		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="/Users/psampson/Downloads/chrome/Lab11.3 setup.zip"/>
+	<section name="NewWizardAction">
+		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.objectaid.uml.new"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
@@ -64,6 +70,7 @@
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
 		</list>
 	</section>
 </section>

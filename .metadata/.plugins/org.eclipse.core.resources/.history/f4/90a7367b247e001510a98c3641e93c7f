@@ -1,0 +1,8 @@
+package com.codeu.event.rental;
+
+public class PlaneSeat extends Rentable {
+	private String departureCode;
+	private String arrivalCode;
+	private int seatNumberAndRow;
+
+}

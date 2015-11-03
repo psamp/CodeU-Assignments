@@ -1,0 +1,40 @@
+package hwOct30Princess;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.codeu.psamp.Song;
+
+public class SongTest {
+	
+	Collection<Song> musicLibrary;
+	
+	Song colors;
+	Song countingStars;
+	Song yfb;
+	Song pgr;
+
+	@Before
+	public void setUp() throws Exception {
+		musicLibrary = new ArrayList<Song>();
+		
+		colors = new Song("Colors", 4.09, "Halsey");
+		countingStars = new Song("Counting Stars", 4.18, "One Republic");
+		yfb = new Song("Yellow Flicker Beat", 3.53, "Lorde");
+		pgr = new Song("Pretty Girl Rock", 4.03, "Keri Hilson");
+		
+		musicLibrary.add(colors);
+		
+	}
+
+	@Test
+	public final void testToString() {
+		fail("Not yet implemented");
+	}
+
+}

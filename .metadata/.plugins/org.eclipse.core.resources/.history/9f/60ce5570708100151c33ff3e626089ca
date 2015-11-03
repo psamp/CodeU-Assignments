@@ -1,0 +1,6 @@
+package com.psamp.bucketlist;
+
+public class BucketListException extends Exception {
+
+	
+}

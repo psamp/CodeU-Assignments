@@ -1,0 +1,10 @@
+package com.codeu.spendable;
+
+import com.codeu.event.bean.CreditCard;
+
+public interface Spendable {
+	String currencySymbol;
+	double exchangeRate;
+	
+	public abstract String pay();
+}
