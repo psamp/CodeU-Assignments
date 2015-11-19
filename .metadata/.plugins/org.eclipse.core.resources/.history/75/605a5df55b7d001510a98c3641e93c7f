@@ -1,7 +1,0 @@
-package com.codeu.currency;
-
-public class AUD extends Spend {
-	
-	
-	
-}

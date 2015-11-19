@@ -1,5 +1,0 @@
-package com.codeu.currency;
-
-public class CFP extends Spendable {
-	String currency symbol = "F";
-}

@@ -1,9 +1,0 @@
-package com.psamp.bucketlist;
-
-public class BucketList {
-
-	public BucketList() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

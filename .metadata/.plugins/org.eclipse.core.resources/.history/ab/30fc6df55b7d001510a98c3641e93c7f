@@ -1,5 +1,0 @@
-package com.codeu.currency;
-
-public class KES extends Spend {
-	String currencySymbol = "KSh";
-}
